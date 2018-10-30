@@ -1,9 +1,17 @@
 (ns wikidata-foi.core-test
   (:require [clojure.test :refer :all]
-            [wikidata-foi.core :refer :all]))
+            [wikidata-foi.core :refer :all]
+            [clojure.java.io :as io]))
   ;;(:import [grafter.rdf.protocols Quad]))
 
+(deftest get-map-test
+  (let [map (get-map "http://commons.wikimedia.org/data/main/Data:Glasgow.map")]
+    (testing "Returns boundary as Well-Known-Text "
+      (is (.startsWith map "MULTIPOLYGON (((-4.19051 55.88871")))))
+
+
 (deftest rdf-generation-test
-  (let [quads (foi "wikidata.csv")]
-    (testing "Generates statements"
-      (is (< 0 (count quads)))))) ;;(instance? (first quads) Quad)))))
+  (with-open [reader (io/reader "resources/cord-geographies-wikidata.csv")]
+    (let [quads (foi reader)]
+      (testing "Generates statements"
+        (is (< 0 (count quads))))))) ;;(instance? (first quads) Quad)))))
