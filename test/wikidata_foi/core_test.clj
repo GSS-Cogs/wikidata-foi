@@ -18,8 +18,8 @@
            .
         }"))
 
-(deftest rdf-generation-test
-  (with-repository-containing [test-repo (main "test/resources/eg-wikidata.csv" "test/resources/maplinks.csv")]
+(deftest pipeline-cord-test
+  (with-repository-containing [test-repo (pipeline-cord "test/resources/eg-wikidata.csv" "test/resources/maplinks.csv")]
     (with-open [connection (->connection test-repo)]
       (testing "Generates complete data for Austria"
         (let [austria (doall (query connection select-austria))]

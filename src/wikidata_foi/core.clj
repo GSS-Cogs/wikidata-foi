@@ -3,7 +3,8 @@
             [table2qb.util :refer [tempfile create-metadata-source]]
             [table2qb.csv :refer [write-csv]]
             [clojure.java.io :as io]
-            [csv2rdf.csvw :as csvw])
+            [csv2rdf.csvw :as csvw]
+            [wikidata-foi.serialise :as serialise])
   (:import [java.io File]))
 
 
@@ -22,11 +23,14 @@
           csvw-metadata-source (create-metadata-source csvw-data-file csvw-metadata)]
       (csvw/csv->rdf nil csvw-metadata-source {:mode :standard}))))
 
-(defn main
+(defn pipeline-cord
   ([]
-   (main "resources/cord-geographies-wikidata.csv"
-         "resources/wiki-map.csv"))
+   (pipeline-cord "resources/cord-geographies-wikidata.csv"
+                  "resources/wiki-map.csv"))
   ([codes-file maps-file]
    (with-open [codes-rdr (io/reader codes-file)
                maps-rdr (io/reader maps-file)]
      (pipeline codes-rdr maps-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1))))
+
+(defn main [output-file]
+  (serialise/quads-to-file (pipeline-cord) output-file))
