@@ -9,9 +9,7 @@
     (testing "Returns boundary as Well-Known-Text "
       (is (.startsWith map "MULTIPOLYGON (((-4.19051 55.88871")))))
 
-
 (deftest rdf-generation-test
-  (with-open [reader (io/reader "resources/cord-geographies-wikidata.csv")]
-    (let [quads (foi reader)]
-      (testing "Generates statements"
-        (is (< 0 (count quads))))))) ;;(instance? (first quads) Quad)))))
+  (let [quads (main)]
+    (testing "Generates statements"
+      (is (< 0 (count quads))))));;(instance? (first quads) Quad)))))
