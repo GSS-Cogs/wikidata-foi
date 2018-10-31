@@ -5,8 +5,11 @@
             [clojure.java.io :as io]
             [csv2rdf.csvw :as csvw]
             [wikidata-foi.serialise :as serialise])
-  (:import [java.io File]))
+  (:import [java.io File]
+           [java.net URI]))
 
+(defn default-graph [triples graph]
+  (map (fn [quad] (update quad :c (fn [c] (or c graph)))) triples))
 
 (defn write-csvw [data file]
   "Writes csvw data to a file"
@@ -30,7 +33,11 @@
   ([codes-file maps-file]
    (with-open [codes-rdr (io/reader codes-file)
                maps-rdr (io/reader maps-file)]
-     (pipeline codes-rdr maps-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1))))
+     (-> (pipeline codes-rdr maps-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1)
+         (default-graph (URI. (str "http://gss-data.org.uk/graph/cord-geographies")))))))
 
-(defn main [output-file]
-  (serialise/quads-to-file (pipeline-cord) output-file))
+(defn -main
+  ([]
+   (serialise/quads-to-file "cord-foi.nq" (pipeline-cord)))
+  ([codes-file maps-file output-file]
+   (serialise/quads-to-file output-file (pipeline-cord codes-file maps-file))))

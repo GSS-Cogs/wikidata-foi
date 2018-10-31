@@ -6,8 +6,8 @@
             [clojure.java.io :as io]))
 
 (defn quads-to-file [filename quads]
-  "Serializes quads to a file. Filename sets format."
-  (let [serializer (rdf-serializer filename)]
+  "Serializes nquads to a file."
+  (let [serializer (rdf-serializer filename :format formats/rdf-nquads)]
     (rdf/add serializer quads)))
 
 (defn quads-to-folder [folder quads & {:keys [format] :or {format formats/rdf-nquads}}]

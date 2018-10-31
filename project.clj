@@ -10,4 +10,5 @@
                  [clj-http "3.9.1"]
                  [org.clojure/data.json "0.2.6"]
                  [org.geotools/gt-geojson "17.1"]
-                 [org.geotools/gt-jts-wrapper "17.1"]])
+                 [org.geotools/gt-jts-wrapper "17.1"]]
+  :main wikidata-foi.core)
