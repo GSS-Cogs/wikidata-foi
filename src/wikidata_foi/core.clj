@@ -1,22 +1,11 @@
 (ns wikidata-foi.core
-  (:require [wikidata-foi.geometry :as geo]
-            [wikidata-foi.foi :as foi]
+  (:require [wikidata-foi.foi :as foi]
             [table2qb.util :refer [tempfile create-metadata-source]]
             [table2qb.csv :refer [write-csv]]
             [clojure.java.io :as io]
-            [clojure.data.json :as json]
-            [clj-http.client :as client]
             [csv2rdf.csvw :as csvw])
   (:import [java.io File]))
 
-(defn get-map [url]
-  "Gets GeoJSON boundary from url and transforms to WKT"
-  (-> (client/get url)
-      :body
-      json/read-str
-      (get "data")
-      json/write-str
-      geo/json->wkt))
 
 (defn write-csvw [data file]
   "Writes csvw data to a file"
@@ -33,7 +22,11 @@
           csvw-metadata-source (create-metadata-source csvw-data-file csvw-metadata)]
       (csvw/csv->rdf nil csvw-metadata-source {:mode :standard}))))
 
-(defn main []
-  (with-open [codes-rdr (io/reader "resources/cord-geographies-wikidata.csv")
-              maps-rdr (io/reader "resources/wiki-map.csv")]
-    (pipeline codes-rdr maps-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1)))
+(defn main
+  ([]
+   (main "resources/cord-geographies-wikidata.csv"
+         "resources/wiki-map.csv"))
+  ([codes-file maps-file]
+   (with-open [codes-rdr (io/reader codes-file)
+               maps-rdr (io/reader maps-file)]
+     (pipeline codes-rdr maps-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1))))
