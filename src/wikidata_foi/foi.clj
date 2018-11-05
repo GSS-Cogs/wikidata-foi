@@ -48,7 +48,7 @@
     (fn [row]
       (let [{:keys [map-slug map-url]} (map-lookup (:wikidata_id row))]
         (-> row
-          (assoc :geometry_uri (str "http://gss-data.org.uk/def/wikidata/" map-slug))
+          (assoc :geometry_uri (when map-slug (str "http://gss-data.org.uk/def/wikidata/" map-slug)))
           (assoc :map_url map-url)
           (dissoc :wikidata_id))))))
 
