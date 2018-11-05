@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'clojure:lein-alpine'
-            args '-u 0'
+            args '-u root:root'
         }
 
     }
