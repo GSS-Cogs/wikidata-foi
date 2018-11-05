@@ -9,6 +9,9 @@
 (defn quads-to-file [filename quads]
   "Serializes nquads to a file."
   (log/info (str "Serialising output to " filename))
+  (let [parent-directory (.getParent (io/file filename))]
+    (when parent-directory
+      (.mkdirs (io/file parent-directory))))
   (let [serializer (rdf-serializer filename :format formats/rdf-nquads)]
     (rdf/add serializer quads)))
 
