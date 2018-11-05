@@ -1,7 +1,10 @@
 pipeline {
     agent {
-        docker { image 'clojure:lein-alpine' }
-        args '-u 0'
+        docker {
+            image 'clojure:lein-alpine'
+            args '-u 0'
+        }
+
     }
     stages {
         stage('Create or replace Draft') {
