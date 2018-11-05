@@ -31,8 +31,8 @@
    (pipeline-cord "resources/cord-geographies-wikidata.csv"))
   ([codes-file]
    (with-open [codes-rdr (io/reader codes-file)]
-     (-> (pipeline codes-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1)
-         (default-graph (URI. (str "http://gss-data.org.uk/graph/cord-geographies")))))))
+     (-> (pipeline codes-rdr "CORD Geography" "CORD Geographies" "ons-trade-areas-cord" 1)
+         (default-graph (URI. (str "http://gss-data.org.uk/graph/cord-geography-foi")))))))
 
 (defn -main
   ([]
