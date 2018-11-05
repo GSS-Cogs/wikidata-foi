@@ -3,7 +3,8 @@
             [clj-http.client :as client]
             [clojure.data.json :as json]
             [grafter.rdf.repository :refer [->connection query sparql-repo]]
-            [wikidata-foi.geometry :as geo]))
+            [wikidata-foi.geometry :as geo]
+            [clojure.tools.logging :as log]))
 
 (def domain-def "http://gss-data.org.uk/def/")
 
@@ -18,6 +19,7 @@
 
 (defn get-maplinks []
   "Gets links for all wikidata maps"
+  (log/info "Getting map links from query.wikidata.org")
   (let [map-query (str "SELECT ?geo ?map WHERE {"
                        "  SERVICE wikibase:label { bd:serviceParam wikibase:language 'en,en'. }"
                        "?geo wdt:P3896 ?map ."
@@ -53,6 +55,7 @@
 (defn get-map [url]
   "Gets GeoJSON boundary from url and transforms to WKT"
   (when url
+    (log/info (str "Getting map from " url))
     (-> (client/get url)
         :body
         json/read-str

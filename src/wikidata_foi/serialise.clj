@@ -3,10 +3,12 @@
             [grafter.rdf.io :refer [rdf-serializer]]
             [grafter.rdf.formats :as formats]
             [grafter.extra.cell.uri :refer [filenameize]]
-            [clojure.java.io :as io]))
+            [clojure.java.io :as io]
+            [clojure.tools.logging :as log]))
 
 (defn quads-to-file [filename quads]
   "Serializes nquads to a file."
+  (log/info (str "Serialising output to " filename))
   (let [serializer (rdf-serializer filename :format formats/rdf-nquads)]
     (rdf/add serializer quads)))
 
