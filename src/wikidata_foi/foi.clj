@@ -113,7 +113,7 @@
                   "valueUrl" "{+geometry_uri}"}
                  {"name" "well_known_text"
                   "titles" "well_known_text"
-                  "datatype" "string"
+                  "datatype" {"@id" "http://www.opengis.net/ont/geosparql#wktLiteral"}
                   "aboutUrl" "{+geometry_uri}"
                   "propertyUrl" "http://www.opengis.net/ont/geosparql#asWKT"}
                  {"aboutUrl" "{+geometry_uri}"
