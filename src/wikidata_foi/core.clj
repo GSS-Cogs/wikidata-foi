@@ -16,10 +16,10 @@
   (with-open [writer (io/writer file)]
     (write-csv writer data)))
 
-(defn pipeline [codes maps name-singular name-plural collection-slug sort-priority]
+(defn pipeline [codes name-singular name-plural collection-slug sort-priority]
   "Generates FOI RDF given tabular inputs for codes and a map lookup
   together with a name and slug for the collection"
-  (let [csvw-data (foi/collection codes maps)
+  (let [csvw-data (foi/collection codes)
         csvw-data-file (tempfile "features" ".csv")]
     (write-csvw csvw-data csvw-data-file)
     (let [csvw-metadata (foi/collection-metadata (.toURI csvw-data-file) name-singular name-plural collection-slug sort-priority)
@@ -28,16 +28,14 @@
 
 (defn pipeline-cord
   ([]
-   (pipeline-cord "resources/cord-geographies-wikidata.csv"
-                  "resources/wiki-map.csv"))
-  ([codes-file maps-file]
-   (with-open [codes-rdr (io/reader codes-file)
-               maps-rdr (io/reader maps-file)]
-     (-> (pipeline codes-rdr maps-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1)
+   (pipeline-cord "resources/cord-geographies-wikidata.csv"))
+  ([codes-file]
+   (with-open [codes-rdr (io/reader codes-file)]
+     (-> (pipeline codes-rdr "CORD Geography" "CORD Geographies" "cord-geographies" 1)
          (default-graph (URI. (str "http://gss-data.org.uk/graph/cord-geographies")))))))
 
 (defn -main
   ([]
    (serialise/quads-to-file "cord-foi.nq" (pipeline-cord)))
-  ([codes-file maps-file output-file]
-   (serialise/quads-to-file output-file (pipeline-cord codes-file maps-file))))
+  ([codes-file output-file]
+   (serialise/quads-to-file output-file (pipeline-cord codes-file))))

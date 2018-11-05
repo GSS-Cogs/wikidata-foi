@@ -2,6 +2,7 @@
   (:require [table2qb.csv :refer [read-csv]]
             [clj-http.client :as client]
             [clojure.data.json :as json]
+            [grafter.rdf.repository :refer [->connection query sparql-repo]]
             [wikidata-foi.geometry :as geo]))
 
 (def domain-def "http://gss-data.org.uk/def/")
@@ -12,19 +13,36 @@
                  "Notation" :notation
                  "Parent Notation", :parent_notation}))
 
-(defn map-lookup [rdr]
-  (->> (read-csv rdr)
-       (map (fn [row]
-              (let [id (second (re-find #"/entity/(.*)" (:geo row)))
-                    slug (second (re-find #"/Data:(.*)\.map" (:map row)))]
-                {id {:map-slug slug
-                     :map-url (:map row)}})))
-       (into {})))
+(defn fmap [f m]
+  (into {} (for [[k v] m] [k (f v)])))
+
+(defn get-maplinks []
+  "Gets links for all wikidata maps"
+  (let [map-query (str "SELECT ?geo ?map WHERE {"
+                       "  SERVICE wikibase:label { bd:serviceParam wikibase:language 'en,en'. }"
+                       "?geo wdt:P3896 ?map ."
+                       "}")]
+    (with-open [connection (->connection (sparql-repo "https://query.wikidata.org/sparql"))]
+      (doall (->> (query connection map-query)
+                  (map (partial fmap str)))))))
+
+
+(defn map-lookup
+  ([]
+   (map-lookup (get-maplinks)))
+  ([maplinks]
+   (->> maplinks
+        (map (fn [row]
+               (let [id (second (re-find #"/entity/(.*)" (:geo row)))
+                     slug (second (re-find #"/Data:(.*)\.map" (:map row)))]
+                 {id {:map-slug slug
+                      :map-url (:map row)}})))
+        (into {}))))
 
 
 ;;(str "http://www.wikidata.org/entity/" (:wikidata_id row)
-(defn add-map-fn [rdr]
-  (let [map-lookup (map-lookup rdr)]
+(defn add-map-fn []
+  (let [map-lookup (map-lookup)]
     (fn [row]
       (let [{:keys [map-slug map-url]} (map-lookup (:wikidata_id row))]
         (-> row
@@ -47,9 +65,9 @@
     (assoc :well_known_text (get-map (:map_url row)))
     (dissoc :map_url)))
 
-(defn collection [codes maps]
+(defn collection [codes]
   "Creates a sequence of hashmaps each describing a FOI, ready for csvw translation"
-  (let [add-map (add-map-fn maps)]
+  (let [add-map (add-map-fn)]
     (->> codes
          read-codes
          (map add-map)
