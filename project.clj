@@ -13,4 +13,5 @@
                  [org.clojure/data.json "0.2.6"]
                  [org.geotools/gt-geojson "17.1"]
                  [org.geotools/gt-jts-wrapper "17.1"]]
+  :repositories [["os-geo" { :url "https://download.osgeo.org/webdav/geotools/"}]]
   :main wikidata-foi.core)
