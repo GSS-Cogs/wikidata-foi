@@ -4,8 +4,10 @@ pipeline {
     }
     stages {
         stage('Create or replace Draft') {
-            script {
-                jobDraft.replace()
+            steps {
+                script {
+                    jobDraft.replace()
+                }
             }
         }
         stage('Build FOI data') {
@@ -14,19 +16,23 @@ pipeline {
             }
         }
         stage('Upload FOI data') {
-            script {
-                def draft = jobDraft.find()
-                configFileProvider([configFile(fileId: 'pmd', variable: 'configfile')]) {
-                    def config = readJSON(text: readFile(file: configfile))
-                    String PMD = config['pmd_api']
-                    String credentials = config['credentials']
-                    drafter.addData(PMD, credentials, draft.id, readFile("out/cord-foi.nq"), "application/n-quads;charset=UTF-8")
+            steps {
+                script {
+                    def draft = jobDraft.find()
+                    configFileProvider([configFile(fileId: 'pmd', variable: 'configfile')]) {
+                        def config = readJSON(text: readFile(file: configfile))
+                        String PMD = config['pmd_api']
+                        String credentials = config['credentials']
+                        drafter.addData(PMD, credentials, draft.id, readFile("out/cord-foi.nq"), "application/n-quads;charset=UTF-8")
+                    }
                 }
             }
         }
         stage('Publish Draft') {
-            script {
-                jobDraft.publish()
+            steps {
+                script {
+                    jobDraft.publish()
+                }
             }
         }
     }
