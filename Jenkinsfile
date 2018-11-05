@@ -29,7 +29,7 @@ pipeline {
                         String credentials = config['credentials']
                         drafter.deleteGraph(PMD, credentials, draft.id, "http://gss-data.org.uk/graph/cord-geographies")
                         drafter.addData(PMD, credentials, draft.id, readFile("out/cord-foi.nq"), "application/n-quads;charset=UTF-8")
-                        drafter.addData(PMD, credentials, draft.id, readFile("out/foi.trig"), "application/trig;charset=UTF-8")
+                        drafter.addData(PMD, credentials, draft.id, readFile("resources/foi.trig"), "application/trig;charset=UTF-8")
                     }
                 }
             }
