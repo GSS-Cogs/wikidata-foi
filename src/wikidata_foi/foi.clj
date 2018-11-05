@@ -56,12 +56,15 @@
   "Gets GeoJSON boundary from url and transforms to WKT"
   (when url
     (log/info (str "Getting map from " url))
-    (-> (client/get url)
-        :body
-        json/read-str
-        (get "data")
-        json/write-str
-        geo/json->wkt)))
+    (try
+      (-> (client/get url {:cookie-policy :standard})
+          :body
+          json/read-str
+          (get "data")
+          json/write-str
+          geo/json->wkt)
+      (catch clojure.lang.ExceptionInfo e
+        (log/warn (str "- " url " not found!"))))))
 
 (defn add-wkt [row]
   (-> row
