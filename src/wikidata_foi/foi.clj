@@ -22,7 +22,7 @@
   (log/info "Getting map links from query.wikidata.org")
   (let [map-query (str "SELECT ?geo ?map WHERE {"
                        "  SERVICE wikibase:label { bd:serviceParam wikibase:language 'en,en'. }"
-                       "?geo wdt:P3896 ?map ."
+                       "  ?geo wdt:P3896 ?map ."
                        "}")]
     (with-open [connection (->connection (sparql-repo "https://query.wikidata.org/sparql"))]
       (doall (->> (query connection map-query)
