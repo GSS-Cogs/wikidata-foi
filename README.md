@@ -12,6 +12,10 @@ Run the full pipeline (WIP):
 
     $ lein run resources/cord-geographies-wikidata.csv cord-foi.nq
 
+The resources folder also contains a world boundary taken from [Natural Earth Vector Data](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/) and "dissolved" into a single WKT boundary using QGIS.
+
+The [Jenkinsfile](./Jenkinsfile) describes the overall process.
+
 ## License
 
 Copyright © 2018 FIXME
