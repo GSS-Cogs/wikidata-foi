@@ -4,7 +4,8 @@
             [clojure.data.json :as json]
             [grafter.rdf.repository :refer [->connection query sparql-repo]]
             [wikidata-foi.geometry :as geo]
-            [clojure.tools.logging :as log]))
+            [clojure.tools.logging :as log]
+            [clojure.string :as string]))
 
 (def domain-def "http://gss-data.org.uk/def/")
 
@@ -21,7 +22,6 @@
   "Gets links for all wikidata maps"
   (log/info "Getting map links from query.wikidata.org")
   (let [map-query (str "SELECT ?geo ?map WHERE {"
-                       "  SERVICE wikibase:label { bd:serviceParam wikibase:language 'en,en'. }"
                        "  ?geo wdt:P3896 ?map ."
                        "}")]
     (with-open [connection (->connection (sparql-repo "https://query.wikidata.org/sparql"))]
@@ -71,13 +71,19 @@
     (assoc :well_known_text (get-map (:map_url row)))
     (dissoc :map_url)))
 
+(defn add-parent-flags [{:keys [parent_notation] :as row}]
+  "Adds a flag to indicate whether a parent is present (for conditionally producing hierarchy properties)"
+  (let [has-parent? (if (string/blank? parent_notation) "" "yes")]
+    (assoc row :parent has-parent? :within has-parent?)))
+
 (defn collection [codes]
   "Creates a sequence of hashmaps each describing a FOI, ready for csvw translation"
   (let [add-map (add-map-fn)]
     (->> codes
          read-codes
          (map add-map)
-         (map add-wkt))))
+         (map add-wkt)
+         (map add-parent-flags))))
 
 (defn collection-metadata [file name-singular name-plural collection-slug sort-priority]
   "Creates a hashmap with csvw-metadata for translating a sequence of FOI to RDF"
@@ -103,9 +109,8 @@
                   "propertyUrl" "http://publishmydata.com/def/ontology/foi/code"}
                  {"name" "parent_notation",
                   "titles" "parent_notation",
-                  "datatype" "string",
-                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/parent",
-                  "valueUrl" parent-uri}
+                  "datatype" "string"
+                  "suppressOutput" true}
                  {"name" "geometry_uri"
                   "titles" "geometry_uri"
                   "datatype" "string"
@@ -116,15 +121,20 @@
                   "datatype" {"@id" "http://www.opengis.net/ont/geosparql#wktLiteral"}
                   "aboutUrl" "{+geometry_uri}"
                   "propertyUrl" "http://www.opengis.net/ont/geosparql#asWKT"}
+                 {"name" "parent"
+                  "titles" "parent"
+                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/parent",
+                  "valueUrl" parent-uri}
+                 {"name" "within"
+                  "titles" "within"
+                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/within",
+                  "valueUrl" parent-uri}
                  {"aboutUrl" "{+geometry_uri}"
                   "propertyUrl" "rdf:type"
                   "valueUrl" "http://www.opengis.net/ont/geosparql#Geometry"
                   "virtual" true}
                  {"propertyUrl" "http://publishmydata.com/def/ontology/foi/memberOf",
                   "valueUrl" collection-uri,
-                  "virtual" true}
-                 {"propertyUrl" "http://publishmydata.com/def/ontology/foi/within",
-                  "valueUrl" parent-uri,
                   "virtual" true}
                  {"propertyUrl" "rdf:type"
                   "valueUrl" "http://publishmydata.com/def/ontology/foi/Feature"
