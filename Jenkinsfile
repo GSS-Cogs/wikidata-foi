@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Build FOI data') {
             steps {
-                sh 'lein run test/resources/eg-wikidata.csv out/cord-foi.nq'
+                sh 'lein run resources/cord-geographies-wikidata.csv out/cord-foi.nq'
             }
         }
         stage('Upload FOI data') {
