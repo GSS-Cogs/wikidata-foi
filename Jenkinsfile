@@ -16,7 +16,8 @@ pipeline {
         }
         stage('Build FOI data') {
             steps {
-                sh 'lein run resources/cord-geographies-wikidata.csv out/cord-foi.nq'
+                sh 'lein run test/resources/eg-wikidata.csv out/cord-foi.nq'
+                // sh 'lein run resources/cord-geographies-wikidata.csv out/cord-foi.nq'
             }
         }
         stage('Upload FOI data') {
@@ -33,7 +34,7 @@ pipeline {
                         drafter.addData(PMD, credentials, draft.id, readFile("resources/foi.trig"), "application/trig;charset=UTF-8")
                         drafter.addData(PMD, credentials, draft.id, readFile("resources/world.nq"), "application/n-quads;charset=UTF-8")
                         // traverse within ancestor chain and add to draft set
-                        ancestorChain = drafter.queryDraftset(PMD, credentials, draft.id, readFile("resources/construct-within.sparql"), "application/n-triples;charset=UTF-8")
+                        ancestorChain = drafter.queryDraftset(PMD, credentials, draft.id, readFile("resources/construct-within.sparql"), org.apache.http.entity.ContentType.create("application/n-triples","UTF-8"))
                         drafter.addData(PMD, credentials, draft.id, ancestorChain, "application/n-triples;charset=UTF-8", "http://gss-data.org.uk/graph/cord-geography-foi")
                     }
                 }
