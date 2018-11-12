@@ -140,5 +140,9 @@
                   "virtual" true}
                  {"propertyUrl" "rdf:type"
                   "valueUrl" "http://publishmydata.com/def/ontology/foi/Feature"
+                  "virtual" true}
+                 {"propertyUrl" "http://publishmydata.com/def/ontology/foi/active",
+                  "default" "true"
+                  "datatype" {"base" "boolean", "format" "true|false"},
                   "virtual" true}]}}))
 

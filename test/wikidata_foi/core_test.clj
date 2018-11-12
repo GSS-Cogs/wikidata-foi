@@ -11,6 +11,7 @@
         SELECT * WHERE {
          ?f a foi:Feature;
             foi:displayName 'Austria';
+            foi:active 'true'^^<http://www.w3.org/2001/XMLSchema#boolean>;
             geosparql:hasGeometry [
               a geosparql:Geometry;
               geosparql:asWKT ?wkt
@@ -40,3 +41,8 @@
               (is (empty? (filter #{"http://publishmydata.com/def/ontology/foi/parent"
                                     "http://publishmydata.com/def/ontology/foi/within"} world-properties))))))))))
 
+(comment
+  ;; for debugging
+  (->> (pipeline-cord "test/resources/eg-wikidata.csv")
+       (filter (fn [[s p o c]] (= (str s) "http://gss-data.org.uk/def/concept/ons-trade-areas-cord/AT")))
+       (map (fn [[s p o c]] { p o}))))
