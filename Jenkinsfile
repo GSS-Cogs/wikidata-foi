@@ -32,6 +32,9 @@ pipeline {
                         drafter.addData(PMD, credentials, draft.id, readFile("out/cord-foi.nq"), "application/n-quads;charset=UTF-8")
                         drafter.addData(PMD, credentials, draft.id, readFile("resources/foi.trig"), "application/trig;charset=UTF-8")
                         drafter.addData(PMD, credentials, draft.id, readFile("resources/world.nq"), "application/n-quads;charset=UTF-8")
+                        // traverse within ancestor chain and add to draft set
+                        ancestorChain = drafter.queryDraftset(PMD, credentials, draft.id, readFile("resources/construct-within.sparql", "application/n-triples;charset=UTF-8")
+                        drafter.addData(PMD, credentials, draft.id, ancestorChain, "application/n-triples;charset=UTF-8", "http://gss-data.org.uk/graph/cord-geography-foi")
                     }
                 }
             }

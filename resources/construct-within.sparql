@@ -1,0 +1,7 @@
+PREFIX foi: <http://publishmydata.com/def/ontology/foi/>
+
+CONSTRUCT { 
+  ?child foi:within ?ancestor
+} WHERE { 
+  ?child foi:parent+ ?ancestor 
+}
