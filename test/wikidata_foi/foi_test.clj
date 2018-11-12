@@ -15,9 +15,15 @@
       (is (nil? (get lookup "NA"))))))
 
 (deftest get-map-test
-  (let [map (get-map "http://commons.wikimedia.org/data/main/Data:Glasgow.map")]
-    (testing "Returns boundary as Well-Known-Text "
-      (is (.startsWith map "MULTIPOLYGON (((-4.19051 55.88871")))))
+  (testing "Returns boundary as Well-Known-Text "
+    (let [map (get-map "http://commons.wikimedia.org/data/main/Data:Glasgow.map")]
+      (is (.startsWith map "MULTIPOLYGON (((-4.19051 55.88871"))))
+  ;; redirects 303 to a broken location (using `%2B` in place of `+` which causes a 404
+  ;; workaround would be to re-write URL manually to:
+  ;; https://commons.wikimedia.org/w/index.php?title=Data:Palestinian+territories.map&action=raw
+  #_(testing "Works with URLS including + char"
+      (let [map (get-map "http://commons.wikimedia.org/data/main/Data:Palestinian+territories.map")]
+        (is (.startsWith map "MULTIPOLYGON (((34.264399048 31.22419342")))))
 
 (deftest collection-test
   (testing "Returns a collection of features"
