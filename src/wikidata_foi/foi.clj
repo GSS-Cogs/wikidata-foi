@@ -16,6 +16,7 @@
                  "Parent Notation", :parent_notation}))
 
 (defn fmap [f m]
+  "Map function over values in map"
   (into {} (for [[k v] m] [k (f v)])))
 
 (defn get-maplinks []
@@ -28,8 +29,8 @@
       (doall (->> (query connection map-query)
                   (map (partial fmap str)))))))
 
-
 (defn map-lookup
+  "Build a lookup from the ID to a map slug and url"
   ([]
    (map-lookup (get-maplinks)))
   ([maplinks]
@@ -44,6 +45,7 @@
 
 ;;(str "http://www.wikidata.org/entity/" (:wikidata_id row)
 (defn add-map-fn []
+  "Create map-adding function (closing over query results)"
   (let [map-lookup (map-lookup)]
     (fn [row]
       (let [{:keys [map-slug map-url]} (map-lookup (:wikidata_id row))]
@@ -53,7 +55,7 @@
           (dissoc :wikidata_id))))))
 
 (defn get-map [url]
-  "Gets GeoJSON boundary from url and transforms to WKT"
+  "Get GeoJSON boundary from url transformed into WKT"
   (when url
     (log/info (str "Getting map from " url))
     (try
