@@ -18,7 +18,8 @@ pipeline {
             steps {
                 //sh 'lein run test/resources/eg-wikidata.csv out/cord-foi.nq'
                 //sh 'lein run resources/cord-geographies-wikidata.csv out/cord-foi.nq'
-                sh 'lein run resources/cord-geographies-single-parent.csv out/cord-foi.nq'
+                //sh 'lein run resources/cord-geographies-single-parent.csv out/cord-foi.nq'
+                sh 'lein run resources/cord-geographies-two-level.csv out/cord-foi.nq'
             }
         }
         stage('Upload FOI data') {
