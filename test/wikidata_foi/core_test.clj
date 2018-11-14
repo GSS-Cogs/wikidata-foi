@@ -12,6 +12,7 @@
          ?f a foi:Feature;
             foi:displayName 'Austria';
             foi:active 'true'^^<http://www.w3.org/2001/XMLSchema#boolean>;
+            foi:memberOf <http://gss-data.org.uk/def/collection/country>;
             geosparql:hasGeometry [
               a geosparql:Geometry;
               geosparql:asWKT ?wkt
@@ -26,20 +27,35 @@
        "    ?p ?o ."
        "}"))
 
+(def select-countries
+  (str "PREFIX rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+       "PREFIX foi: <http://publishmydata.com/def/ontology/foi/>"
+       "PREFIX ui: <http://www.w3.org/ns/ui#>"
+       "SELECT * WHERE {"
+       "  ?c a foi:AreaCollection;"
+       "    foi:pluralDisplayName 'Countries';"
+       "    foi:singularDisplayName 'Country';"
+       "    ui:sortPriority 2;"
+       "  ."
+       "}"))
+
 (deftest pipeline-cord-test
-  (with-repository-containing [test-repo (pipeline-cord "test/resources/eg-wikidata.csv")]
+  (with-repository-containing [test-repo (pipeline-cord "test/resources/eg-collections.csv"
+                                                        "test/resources/eg-features.csv")]
     (with-open [connection (->connection test-repo)]
-      (testing "Generates complete data for Austria"
+      (testing "Generates a Countries collection"
+        (let [countries (doall (query connection select-countries))]
+          (is (not (empty? countries)))))
+      (testing "Generates a complete feature for Austria"
         (let [austria (doall (query connection select-austria))]
           (is (not (empty? austria)))))
           ;;(is (= [] austria)))))))
       (testing "Generates partial data for Belgium")
       (testing "Generates only root-data for World"
         (let [world (doall (query connection select-world))]
-          (testing "has no parent or within relations"
+          (testing "has no parent relations"
             (let [world-properties (->> world (map (comp str :p)))]
-              (is (empty? (filter #{"http://publishmydata.com/def/ontology/foi/parent"
-                                    "http://publishmydata.com/def/ontology/foi/within"} world-properties))))))))))
+              (is (empty? (filter #{"http://publishmydata.com/def/ontology/foi/parent"} world-properties))))))))))
 
 (comment
   ;; for debugging

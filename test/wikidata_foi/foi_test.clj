@@ -25,11 +25,11 @@
       (let [map (get-map "http://commons.wikimedia.org/data/main/Data:Palestinian+territories.map")]
         (is (.startsWith map "MULTIPOLYGON (((34.264399048 31.22419342")))))
 
-(deftest collection-test
-  (testing "Returns a collection of features"
-    (with-open [codes-rdr (io/reader "test/resources/eg-wikidata.csv")]
-      (let [collection (collection codes-rdr)
-            feature (nth collection 1)]
+(deftest features-test
+  (testing "Returns a sequence of features"
+    (with-open [codes-rdr (io/reader "test/resources/eg-features.csv")]
+      (let [features (features codes-rdr)
+            feature (nth features 1)]
         (are [field value] (= value (field feature))
           :label "Austria"
           :geometry_uri "http://gss-data.org.uk/def/wikidata/Austria"

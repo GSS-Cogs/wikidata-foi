@@ -9,11 +9,52 @@
 
 (def domain-def "http://gss-data.org.uk/def/")
 
-(defn read-codes [rdr]
+(defn collection-uri-template [slug-var]
+  (str domain-def "collection/{" slug-var "}"))
+
+(defn read-collections [rdr]
+  (read-csv rdr {"Slug" :slug
+                 "Label Singular" :label_singular
+                 "Label Plural" :label_plural
+                 "Sort Priority" :sort_priority}))
+
+(defn collections [collections]
+  (->> collections
+       read-collections))
+
+(defn collections-metadata [filename]
+  {"@context" ["http://www.w3.org/ns/csvw" {"@language" "en"}]
+   "url" (str filename)
+   "tableSchema"
+   {"aboutUrl" (collection-uri-template "slug")
+    "columns" [{"name" "slug"
+                "titles" "slug"
+                "datatype" "string"
+                "suppressOutput" true}
+               {"name" "label_singular"
+                "titles" "label_singular"
+                "datatype" "string"
+                "propertyUrl" "http://publishmydata.com/def/ontology/foi/singularDisplayName"}
+               {"name" "label_plural"
+                "titles" "label_pural"
+                "datatype" "string"
+                "propertyUrl" "http://publishmydata.com/def/ontology/foi/pluralDisplayName"}
+               {"name" "sort_priority"
+                "titles" "sort_priority"
+                "datatype" "integer"
+                "propertyUrl" "http://www.w3.org/ns/ui#sortPriority"}
+               {"propertyUrl" "rdf:type"
+                "valueUrl" "http://publishmydata.com/def/ontology/foi/AreaCollection"
+                "virtual" true}]}})
+
+
+
+(defn read-features [rdr]
   (read-csv rdr {"Label" :label
                  "Wikidata ID" :wikidata_id
                  "Notation" :notation
-                 "Parent Notation", :parent_notation}))
+                 "Parent Notation" :parent_notation
+                 "Collection Slug" :collection_slug}))
 
 (defn fmap [f m]
   "Map function over values in map"
@@ -78,27 +119,22 @@
   (let [has-parent? (if (string/blank? parent_notation) "" "yes")]
     (assoc row :parent has-parent? :within has-parent?)))
 
-(defn collection [codes]
+(defn features [features]
   "Creates a sequence of hashmaps each describing a FOI, ready for csvw translation"
   (let [add-map (add-map-fn)]
-    (->> codes
-         read-codes
+    (->> features
+         read-features
          (map add-map)
          (map add-wkt)
          (map add-parent-flags))))
 
-(defn collection-metadata [file name-singular name-plural collection-slug sort-priority]
+(defn features-metadata [file scheme-slug]
   "Creates a hashmap with csvw-metadata for translating a sequence of FOI to RDF"
-  (let [collection-uri (str domain-def "concept-scheme/" collection-slug)
-        feature-uri (str domain-def "concept/" collection-slug "/{notation}")
-        parent-uri (str domain-def "concept/" collection-slug "/{parent_notation}")]
+  (let [collection-uri (collection-uri-template "collection_slug")
+        feature-uri (str domain-def "concept/" scheme-slug "/{notation}")
+        parent-uri (str domain-def "concept/" scheme-slug "/{parent_notation}")]
     {"@context" ["http://www.w3.org/ns/csvw" {"@language" "en"}],
-     "@id" collection-uri,
      "url" (str file)
-     "http://publishmydata.com/def/ontology/foi/singularDisplayName" name-singular,
-     "http://publishmydata.com/def/ontology/foi/pluralDisplayName" name-plural,
-     "rdf:type" {"@id" "http://publishmydata.com/def/ontology/foi/AreaCollection"},
-     "http://www.w3.org/ns/ui#sortPriority" sort-priority
      "tableSchema"
      {"aboutUrl" feature-uri,
       "columns" [{"name" "label",
@@ -113,6 +149,11 @@
                   "titles" "parent_notation",
                   "datatype" "string"
                   "suppressOutput" true}
+                 {"name" "collection_slug"
+                  "titles" "collection_slug"
+                  "datatype" "string"
+                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/memberOf"
+                  "valueUrl" collection-uri}
                  {"name" "geometry_uri"
                   "titles" "geometry_uri"
                   "datatype" "string"
@@ -125,18 +166,15 @@
                   "propertyUrl" "http://www.opengis.net/ont/geosparql#asWKT"}
                  {"name" "parent"
                   "titles" "parent"
-                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/parent",
+                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/parent"
                   "valueUrl" parent-uri}
                  {"name" "within"
                   "titles" "within"
-                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/within",
+                  "propertyUrl" "http://publishmydata.com/def/ontology/foi/within"
                   "valueUrl" parent-uri}
                  {"aboutUrl" "{+geometry_uri}"
                   "propertyUrl" "rdf:type"
                   "valueUrl" "http://www.opengis.net/ont/geosparql#Geometry"
-                  "virtual" true}
-                 {"propertyUrl" "http://publishmydata.com/def/ontology/foi/memberOf",
-                  "valueUrl" collection-uri,
                   "virtual" true}
                  {"propertyUrl" "rdf:type"
                   "valueUrl" "http://publishmydata.com/def/ontology/foi/Feature"

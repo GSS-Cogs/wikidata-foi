@@ -16,10 +16,8 @@ pipeline {
         }
         stage('Build FOI data') {
             steps {
-                //sh 'lein run test/resources/eg-wikidata.csv out/cord-foi.nq'
-                //sh 'lein run resources/cord-geographies-wikidata.csv out/cord-foi.nq'
-                //sh 'lein run resources/cord-geographies-single-parent.csv out/cord-foi.nq'
-                sh 'lein run resources/cord-geographies-two-level.csv out/cord-foi.nq'
+                //sh 'lein run test/resources/eg-collections.csv test/resources/eg-features.csv out/cord-foi.nq'
+                sh 'lein run resources/cord-collections-two-level.csv resources/cord-features-two-level.csv out/cord-foi.nq'
             }
         }
         stage('Upload FOI data') {
