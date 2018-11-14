@@ -20,7 +20,8 @@
 
 (defn collections [collections]
   (->> collections
-       read-collections))
+       read-collections
+       (map (fn [row] (assoc row :label (:label_plural row))))))
 
 (defn collections-metadata [filename]
   {"@context" ["http://www.w3.org/ns/csvw" {"@language" "en"}]
@@ -38,14 +39,19 @@
                {"name" "label_plural"
                 "titles" "label_plural"
                 "datatype" "string"
-                "propertyUrl" "rdfs:label"}
+                "propertyUrl" "http://publishmydata.com/def/ontology/foi/pluralDisplayName"}
                {"name" "sort_priority"
                 "titles" "sort_priority"
                 "datatype" "integer"
                 "propertyUrl" "http://www.w3.org/ns/ui#sortPriority"}
+               {"name" "label"
+                "titles" "label"
+                "datatype" "string"
+                "propertyUrl" "rdfs:label"}
                {"propertyUrl" "rdf:type"
                 "valueUrl" "http://publishmydata.com/def/ontology/foi/AreaCollection"
                 "virtual" true}]}})
+
 
 (defn read-features [rdr]
   (read-csv rdr {"Label" :label

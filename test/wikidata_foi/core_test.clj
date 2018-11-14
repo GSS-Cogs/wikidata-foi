@@ -35,6 +35,7 @@
        "  ?c a foi:AreaCollection;"
        "    rdfs:label 'Countries';"
        "    foi:singularDisplayName 'Country';"
+       "    foi:pluralDisplayName 'Countries';"
        "    ui:sortPriority 2;"
        "  ."
        "}"))
