@@ -38,7 +38,7 @@
                {"name" "label_plural"
                 "titles" "label_plural"
                 "datatype" "string"
-                "propertyUrl" "http://publishmydata.com/def/ontology/foi/pluralDisplayName"} ;;"rdfs:label"}
+                "propertyUrl" "rdfs:label"}
                {"name" "sort_priority"
                 "titles" "sort_priority"
                 "datatype" "integer"
@@ -46,8 +46,6 @@
                {"propertyUrl" "rdf:type"
                 "valueUrl" "http://publishmydata.com/def/ontology/foi/AreaCollection"
                 "virtual" true}]}})
-
-
 
 (defn read-features [rdr]
   (read-csv rdr {"Label" :label

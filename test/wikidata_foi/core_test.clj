@@ -28,12 +28,12 @@
        "}"))
 
 (def select-countries
-  (str "PREFIX rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+  (str "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
        "PREFIX foi: <http://publishmydata.com/def/ontology/foi/>"
        "PREFIX ui: <http://www.w3.org/ns/ui#>"
        "SELECT * WHERE {"
        "  ?c a foi:AreaCollection;"
-       "    foi:pluralDisplayName 'Countries';"
+       "    rdfs:label 'Countries';"
        "    foi:singularDisplayName 'Country';"
        "    ui:sortPriority 2;"
        "  ."
