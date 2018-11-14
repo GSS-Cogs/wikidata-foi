@@ -1,371 +1,371 @@
-Label,Wikidata ID,Notation,Parent Notation
-Whole world,,A1,
-Total EU(28),,V3,A1
-Total EU (27),,V1,V3
-Total EU (25),,D3,V1
-Total EU (15),,D2,D3
-Austria,Q40,AT,D2
-Belgium & Luxembourg,,A3,D2
-Belgium,Q31,BE,A3
-Luxembourg,Q32,LU,A3
-Denmark,Q35,DK,D2
-Finland,Q33,FI,D2
-France,Q142,FR,D2
-Germany,Q183,DE,D2
-Greece,Q41,GR,D2
-Irish Republic,Q27,IE,D2
-Italy,Q38,IT,D2
-Netherlands,Q55,NL,D2
-Portugal,Q45,PT,D2
-Spain,Q29,ES,D2
-Sweden,Q34,SE,D2
-Cyprus,Q229,CY,D3
-Czech Republic,Q213,CZ,D3
-Estonia,Q191,EE,D3
-Hungary,Q28,HU,D3
-Latvia,Q211,LV,D3
-Lithuania,Q37,LT,D3
-Malta,Q233,MT,D3
-Poland,Q36,PL,D3
-Slovakia,Q214,SK,D3
-Slovenia,Q215,SI,D3
-Bulgaria,Q219,BG,V1
-Romania,Q218,RO,V1
-Croatia,Q224,HR,V3
-"Non-EU ( D4 is known as Extra EU-15, here it is REst of World or V2)",,D4,A1
-Rest of Western Europe,,C80,D4
-EFTA,,A5,C80
-Iceland,Q189,IS,A5
-Liechtenstein,Q347,LI,A5
-Norway,Q20,NO,A5
-Switzerland,Q39,CH,A5
-Gibraltar,Q21958349,GI,C80
-Turkey,Q43,TR,C80
-Other Western Europe,,C482,C80
-Andorra,Q228,AD,C482
-Faroe Islands,Q4628,FO,C482
-Jersey,Q785,JE,C482
-San Marino,Q238,SM,C482
-Vatican City,Q237,VA,C482
-North America,Q49,C83,D4
-NAFTA,,B1,C83
-Canada,Q16,CA,B1
-Mexico,Q96,MX,B1
-United States,Q30,US,B1
-United States exc Puerto Rico,,US1,US
-United States inc Puerto Rico,,US2,US
-Puerto Rico,Q1183,PR,US
-Other North America,,C484,C83
-Greenland,Q223,GL,C484
-St. Pierre & Miquelon,Q34617,PM,C484
-Other OECD countries,,C76,D4
-Australia,Q408,AU,C76
-Japan,Q17,JP,C76
-New Zealand,Q664,NZ,C76
-South Korea,Q884,KR,C76
-Ceuta,Q5823,XC,C76
-Melilla,Q5831,XL,C76
-Oil exporting countries,,C77,D4
-Saudi Arabia,Q851,SA,C77
-United Arab Emirates,Q878,AE,C77
-United Arab Emirates (HMRC),Q878,AE1,AE
-Abu Dhabi,Q187712,DH,AE
-Dubai,Q613,DU,AE
-Sharjah etc,,HA,AE
-Other Gulf Arabian,,C486,C77
-Bahrain,Q398,BH,C486
-Kuwait,Q817,KW,C486
-Iraq,Q796,IQ,C486
-Oman,Q842,OM,C486
-Qatar,Q846,QA,C486
-Other oil exporters,,C487,C77
-Algeria,Q262,DZ,C487
-Brunei,Q921,BN,C487
-East Timor,Q574,TL,C487
-Ecuador,Q736,EC,C487
-Gabon,Q1000,GA,C487
-Indonesia,Q252,ID,C487
-Iran,Q794,IR,C487
-Libya,Q1016,LY,C487
-Nigeria,Q1033,NG,C487
-Trinidad & Tobago,Q754,TT,C487
-Venezuela,Q717,VE,C487
-Rest of World,,C72,D4
-Rest of World: Europe,,C493,C72
-Albania,Q222,AL,C493
-Belarus,Q184,BY,C493
-Bosnia & Herzegovina,Q225,BA,C493
-FYR Macedonia,Q221,MK,C493
-Moldova,Q217,MD,C493
-Russia,Q159,RU,C493
-Yugoslavia,Q36704,C114,C493
-Serbia and Montenegro,Q37024,CS,C114
-Montenegro,Q236,ME,CS
-Serbia,Q403,XS,CS
-Kosovo,Q1246,XK,C114
-Ukraine,Q212,UA,C493
-Rest of World: Central America,,C472,C72
-Bahamas,Q778,BS,C472
-Barbados,Q244,BB,C472
-Jamaica,Q766,JM,C472
-Panama,Q804,PA,C472
-St Kitts & Nevis,Q763,KN,C472
-Central America Offshores,,C473,C472
-Bermuda,Q23635,BM,C473
-British Virgin Islands,Q25305,VG,C473
-Cayman Islands,Q5785,KY,C473
-Montserrat,Q13353,MS,C473
-Netherlands Antilles,Q25227,AN,C473
-Other Caribbean ACP,,C474,C472
-Antigua & Barbuda,Q781,AG,C474
-Belize,Q242,BZ,C474
-Dominica,Q784,DM,C474
-Dominican Republic,Q786,DO,C474
-Grenada,Q769,GD,C474
-Haiti,Q790,HT,C474
-St Lucia,Q760,LC,C474
-St Vincent,Q757,VC,C474
-Other Latin America,,C475,C472
-Costa Rica,Q800,CR,C475
-Cuba,Q241,CU,C475
-El Salvador,Q792,SV,C475
-Guatemala,Q774,GT,C475
-Honduras,Q783,HN,C475
-Nicaragua,Q811,NI,C475
-Other Caribbean,,C476,C472
-Anguilla,Q25228,AI,C476
-Aruba,Q21203,AW,C476
-Turks & Caicos Islands,Q18221,TC,C476
-US Virgin Islands,Q11703,VI,C476
-Rest of World: South America,,C489,C72
-Argentina,Q414,AR,C489
-Bolivia,Q750,BO,C489
-Brazil,Q155,BR,C489
-Chile,Q298,CL,C489
-Colombia,Q739,CO,C489
-Falkland Islands,Q1249802,FK,C489
-Guyana,Q734,GY,C489
-Paraguay,Q733,PY,C489
-Peru,Q419,PE,C489
-Surinam,Q730,SR,C489
-Uruguay,Q77,UY,C489
-Rest of World: Africa,,C488,C72
-Morocco,Q1028,MA,C488
-Tunisia,Q948,TN,C488
-Egypt,Q79,EG,C488
-South Africa,Q258,ZA,C488
-Rest of Africa,,C494,C488
-Rest of French Franc Zone,,C469,C494
-Benin,Q962,BJ,C469
-Burkina Faso,Q965,BF,C469
-Cameroon,Q1009,CM,C469
-Central African Republic,Q929,CF,C469
-Chad,Q657,TD,C469
-Comoros,Q970,KM,C469
-Congo (Republic),Q971,CG,C469
-Equatorial Guinea,Q983,GQ,C469
-Guinea Bissau,Q1007,GW,C469
-Ivory Coast,Q1008,CI,C469
-Mali,Q912,ML,C469
-Mayotte,Q17063,YT,C469
-Niger,Q1032,NE,C469
-Senegal,Q1041,SN,C469
-Togo,Q945,TG,C469
-Rest of Africa ACP,,C470,C494
-Angola,Q916,AO,C470
-Botswana,Q963,BW,C470
-Burundi,Q967,BI,C470
-Cape Verde,Q1011,CV,C470
-Congo (Democratic Republic),Q974,CD,C470
-Djibouti,Q977,DJ,C470
-Eritrea,Q986,ER,C470
-Ethiopia,Q115,ET,C470
-Gambia,Q1005,GM,C470
-Ghana,Q117,GH,C470
-Guinea,Q1006,GN,C470
-Kenya,Q114,KE,C470
-Lesotho,Q1013,LS,C470
-Liberia,Q1014,LR,C470
-Madagascar,Q1019,MG,C470
-Malawi,Q1020,MW,C470
-Mauritania,Q1025,MR,C470
-Mauritius,Q1027,MU,C470
-Mozambique,Q1029,MZ,C470
-Namibia,Q1030,,C470
-Rwanda,Q1037,RW,C470
-Sao Tome & Principe,Q1039,ST,C470
-Seychelles,Q1042,SC,C470
-Sierra Leone,Q1044,SL,C470
-Somalia,Q1045,SO,C470
-Sudan,Q1049,SD,C470
-Swaziland,Q1050,SZ,C470
-Tanzania,Q924,TZ,C470
-Uganda,Q1036,UG,C470
-Zambia,Q953,ZM,C470
-Zimbabwe,Q954,ZW,C470
-Rest of Africa nes,,C471,C494
-British Indian Ocean Territory,Q43448,IO,C471
-St. Helena,Q34497,SH,C471
-Rest of World: Asia,,C490,C72
-China,Q148,CN,C490
-Hong Kong,Q8646,HK,C490
-India,Q668,IN,C490
-Israel,Q801,IL,C490
-Lebanon,Q822,LB,C490
-Malaysia,Q833,MY,C490
-Pakistan,Q843,PK,C490
-Philippines,Q928,PH,C490
-Singapore,Q334,SG,C490
-Taiwan,Q865,TW,C490
-Thailand,Q869,TH,C490
-Vietnam,Q881,VN,C490
-Yemen,Q805,YE,C490
-Former Soviet Near & Middle East,,C477,C490
-Armenia,Q399,AM,C477
-Azerbaijan,Q227,AZ,C477
-Georgia,Q230,GE,C477
-Other Former Soviet Asia,,C478,C490
-Kazakhstan,Q232,KZ,C478
-Kyrgyz Republic,Q813,KG,C478
-Tajikistan,Q863,TJ,C478
-Turkmenistan,Q874,TM,C478
-Uzbekistan,Q265,UZ,C478
-Rest of Near & Middle East,,C481,C490
-Jordan,Q810,JO,C481
-Occupied Palestinian Territory,Q407199,PS,C481
-Syria,Q858,SY,C481
-Rest of ASEAN,,C479,C490
-Myanmar,Q836,MM,C479
-Laos,Q819,LA,C479
-Cambodia,Q424,KH,C479
-Rest of Other Asia,,C480,C490
-Afghanistan,Q889,AF,C480
-Bangladesh,Q902,BD,C480
-Maldives,Q826,MV,C480
-Sri Lanka,Q854,LK,C480
-Nepal,Q837,NP,C480
-Bhutan,Q917,BT,C480
-Mongolia,Q711,MN,C480
-North Korea,Q423,KP,C480
-Macao,Q642005,MO,C480
-Rest of World: Oceania,,C415,C72
-Papua New Guinea,Q691,PG,C415
-Vanuatu,Q686,VU,C415
-Australian Oceania,,C441,C415
-Cocos Islands,Q36004,CC,C441
-Christmas Islands,Q31063,CX,C441
-Heard & McDonald Islands,Q131198,HM,C441
-Norfolk Islands,Q31057,NF,C441
-US Oceania,,C442,C415
-American Samoa,Q16641,AS,C442
-Guam,Q16635,GU,C442
-US Minor Outlying Islands,,UM,C442
-New Zealand Oceania,,C443,C415
-Cook Islands,Q26988,CK,C443
-Niue Island,Q34020,NU,C443
-Tokelau Islands,Q9380379,TK,C443
-Polar Regions,,C444,C415
-Antarctica,,AQ,C444
-Bouvet Island,Q23408,BV,C444
-French Southern Territories,Q129003,TF,C444
-South Georgia,Q1137202,GS,C444
-Other Oceania,,C491,C415
-Fiji,Q712,FJ,C491
-French Polynesia,Q30971,PF,C491
-Kiribati,Q710,KI,C491
-Marshall Islands,Q709,MH,C491
-Micronesia,Q702,FM,C491
-Nauru,Q697,NR,C491
-New Caledonia,Q33788,NC,C491
-Northern Mariana Islands,Q16644,MP,C491
-Palau,Q695,PW,C491
-Pitcairn,Q35672,PN,C491
-Samoa,Q683,WS,C491
-Solomon Islands,Q685,SB,C491
-Tonga,Q678,TO,C491
-Tuvalu,Q672,TV,C491
-Wallis & Futuna,Q35555,WF,C491
-Extra EU-27 or Rest of world excluding EU-27 countries,,V2,
-Europe,,E1,
-Other Europe,,E2,E1
-Residual Europe (aka R1-Residual other Europe),,8A,
-Non-EMU(13),,K3,
-Non-EMU(15),,K4,K3
-Non-EMU(16),,K5,K4
-Non-EMU(17),,K6,K5
-Non-EMU(16) excluding DK and SE,,S5,
-Non-EMU(17) excluding DK and SE,,S6,S5
-Extra Euro Area(13),,J3,
-Extra Euro Area(15),,J4,J3
-Extra Euro Area(16),,J5,J4
-Extra Euro Area(17),,J6,J5
-Extra Euro Area(18),,J7,J6
-Africa,,E4,J7
-North Africa,,E5,E4
-Residual North Africa,,R9,E5
-Other Africa,,E6,E4
-Residual Other Africa (aka R2 - Residual Other Africa,,8C,E6
-Residual Other Africa exc Nigeria,,8D,8C
-Western Sahara,,EH,E6
-South Sudan,Q958,SS,E6
-America,Q30,E7,J7
-North America (BoP),,E8,E7
-Central America,,E9,E7
-Residual Central America,,R3,E9
-Saint Barthelemy,Q25362,BL,E9
-Bonaire,Q25396,BQ,E9
-Curacao,Q25279,CW,E9
-Sint Maarten,Q26273,SX,E9
-South America,,F1,E7
-Asia,,F2,J7
-Near & Middle East,,F3,F2
-Gulf Arabian Countries,,F4,F3
-Residual Gulf Arabian (aka R5-Residual Gulf Arabian),,J8,F4
-Other Near & Middle East,,F5,F3
-Other Asia,,F6,F2
-Residual Asia (aka R6-Residual Asia),,8B,F6
-Oceania & Polar Regions,,F7,J7
-OECD,,A8,
-ASEAN,,B3,
-OPEC,,B4,
-ACP,,B5,
-African ACP,,C449,B5
-Caribbean ACP,,C450,B5
-Pacific ACP,,C451,B5
-NICs1,,B9,
-NICs2A,,C453,
-NICs2LA,,C454,
-CIS,,C6,
-Central & Eastern Europe,,C402,
-Baltic Countries,,E3,C402
-Offshore Financial Centres,,C405,
-EEA,,C445,
-Latin America,,C447,
-Mercosur countries,,C459,C447
-Mediterranean Basin,,C455,
-Former Yugoslavia,,C93,C455
-French Franc Zone,,C456,
-Maghreb countries,,C457,
-Mashrek countries,,C458,
-APEC,,C460,
-Residual America (aka R8- Residual America),,C462,
-used to aggregate suppressed data,,999X,
-Unknown Country A,,X997,999X
-Unknown Country B,,X999,999X
-Unknown Country C,,X977,999X
-Extra EU-25 - world less EU-25 countries,,D5,
-France & Saint Barthelemy,,FRB,
-EMU(18),,I7,
-EMU(17) Euro Area 17,,I6,I7
-EMU(16),,I5,I6
-EMU(15),,I4,I5
-EMU(13) Euro Area 13,,I3,I4
-World total excl EU-27,,V4,
-Store & provisions EU ships,,QR,
-Stores & provisions non-EU ships,,QS,
-Euro area (19),,I8,
-European Central Bank,,4F,I8
-European Stability Mechanism,,4S,I8
-"Euro Area, Changing Composition",,U29,I8
-EU countries non Euro,,K8,
-EU Institutions (non Euro area),,4A,K8
+Label,Wikidata ID,Notation,Parent Notation,Collection Slug
+Whole world,,A1,,world
+Total EU(28),,V3,A1,country
+Total EU (27),,V1,V3,country
+Total EU (25),,D3,V1,country
+Total EU (15),,D2,D3,country
+Austria,Q40,AT,D2,country
+Belgium & Luxembourg,,A3,D2,country
+Belgium,Q31,BE,A3,country
+Luxembourg,Q32,LU,A3,country
+Denmark,Q35,DK,D2,country
+Finland,Q33,FI,D2,country
+France,Q142,FR,D2,country
+Germany,Q183,DE,D2,country
+Greece,Q41,GR,D2,country
+Irish Republic,Q27,IE,D2,country
+Italy,Q38,IT,D2,country
+Netherlands,Q55,NL,D2,country
+Portugal,Q45,PT,D2,country
+Spain,Q29,ES,D2,country
+Sweden,Q34,SE,D2,country
+Cyprus,Q229,CY,D3,country
+Czech Republic,Q213,CZ,D3,country
+Estonia,Q191,EE,D3,country
+Hungary,Q28,HU,D3,country
+Latvia,Q211,LV,D3,country
+Lithuania,Q37,LT,D3,country
+Malta,Q233,MT,D3,country
+Poland,Q36,PL,D3,country
+Slovakia,Q214,SK,D3,country
+Slovenia,Q215,SI,D3,country
+Bulgaria,Q219,BG,V1,country
+Romania,Q218,RO,V1,country
+Croatia,Q224,HR,V3,country
+"Non-EU ( D4 is known as Extra EU-15, here it is REst of World or V2)",,D4,A1,country
+Rest of Western Europe,,C80,D4,country
+EFTA,,A5,C80,country
+Iceland,Q189,IS,A5,country
+Liechtenstein,Q347,LI,A5,country
+Norway,Q20,NO,A5,country
+Switzerland,Q39,CH,A5,country
+Gibraltar,Q21958349,GI,C80,country
+Turkey,Q43,TR,C80,country
+Other Western Europe,,C482,C80,country
+Andorra,Q228,AD,C482,country
+Faroe Islands,Q4628,FO,C482,country
+Jersey,Q785,JE,C482,country
+San Marino,Q238,SM,C482,country
+Vatican City,Q237,VA,C482,country
+North America,Q49,C83,D4,country
+NAFTA,,B1,C83,country
+Canada,Q16,CA,B1,country
+Mexico,Q96,MX,B1,country
+United States,Q30,US,B1,country
+United States exc Puerto Rico,,US1,US,country
+United States inc Puerto Rico,,US2,US,country
+Puerto Rico,Q1183,PR,US,country
+Other North America,,C484,C83,country
+Greenland,Q223,GL,C484,country
+St. Pierre & Miquelon,Q34617,PM,C484,country
+Other OECD countries,,C76,D4,country
+Australia,Q408,AU,C76,country
+Japan,Q17,JP,C76,country
+New Zealand,Q664,NZ,C76,country
+South Korea,Q884,KR,C76,country
+Ceuta,Q5823,XC,C76,country
+Melilla,Q5831,XL,C76,country
+Oil exporting countries,,C77,D4,country
+Saudi Arabia,Q851,SA,C77,country
+United Arab Emirates,Q878,AE,C77,country
+United Arab Emirates (HMRC),Q878,AE1,AE,country
+Abu Dhabi,Q187712,DH,AE,country
+Dubai,Q613,DU,AE,country
+Sharjah etc,,HA,AE,country
+Other Gulf Arabian,,C486,C77,country
+Bahrain,Q398,BH,C486,country
+Kuwait,Q817,KW,C486,country
+Iraq,Q796,IQ,C486,country
+Oman,Q842,OM,C486,country
+Qatar,Q846,QA,C486,country
+Other oil exporters,,C487,C77,country
+Algeria,Q262,DZ,C487,country
+Brunei,Q921,BN,C487,country
+East Timor,Q574,TL,C487,country
+Ecuador,Q736,EC,C487,country
+Gabon,Q1000,GA,C487,country
+Indonesia,Q252,ID,C487,country
+Iran,Q794,IR,C487,country
+Libya,Q1016,LY,C487,country
+Nigeria,Q1033,NG,C487,country
+Trinidad & Tobago,Q754,TT,C487,country
+Venezuela,Q717,VE,C487,country
+Rest of World,,C72,D4,country
+Rest of World: Europe,,C493,C72,country
+Albania,Q222,AL,C493,country
+Belarus,Q184,BY,C493,country
+Bosnia & Herzegovina,Q225,BA,C493,country
+FYR Macedonia,Q221,MK,C493,country
+Moldova,Q217,MD,C493,country
+Russia,Q159,RU,C493,country
+Yugoslavia,Q36704,C114,C493,country
+Serbia and Montenegro,Q37024,CS,C114,country
+Montenegro,Q236,ME,CS,country
+Serbia,Q403,XS,CS,country
+Kosovo,Q1246,XK,C114,country
+Ukraine,Q212,UA,C493,country
+Rest of World: Central America,,C472,C72,country
+Bahamas,Q778,BS,C472,country
+Barbados,Q244,BB,C472,country
+Jamaica,Q766,JM,C472,country
+Panama,Q804,PA,C472,country
+St Kitts & Nevis,Q763,KN,C472,country
+Central America Offshores,,C473,C472,country
+Bermuda,Q23635,BM,C473,country
+British Virgin Islands,Q25305,VG,C473,country
+Cayman Islands,Q5785,KY,C473,country
+Montserrat,Q13353,MS,C473,country
+Netherlands Antilles,Q25227,AN,C473,country
+Other Caribbean ACP,,C474,C472,country
+Antigua & Barbuda,Q781,AG,C474,country
+Belize,Q242,BZ,C474,country
+Dominica,Q784,DM,C474,country
+Dominican Republic,Q786,DO,C474,country
+Grenada,Q769,GD,C474,country
+Haiti,Q790,HT,C474,country
+St Lucia,Q760,LC,C474,country
+St Vincent,Q757,VC,C474,country
+Other Latin America,,C475,C472,country
+Costa Rica,Q800,CR,C475,country
+Cuba,Q241,CU,C475,country
+El Salvador,Q792,SV,C475,country
+Guatemala,Q774,GT,C475,country
+Honduras,Q783,HN,C475,country
+Nicaragua,Q811,NI,C475,country
+Other Caribbean,,C476,C472,country
+Anguilla,Q25228,AI,C476,country
+Aruba,Q21203,AW,C476,country
+Turks & Caicos Islands,Q18221,TC,C476,country
+US Virgin Islands,Q11703,VI,C476,country
+Rest of World: South America,,C489,C72,country
+Argentina,Q414,AR,C489,country
+Bolivia,Q750,BO,C489,country
+Brazil,Q155,BR,C489,country
+Chile,Q298,CL,C489,country
+Colombia,Q739,CO,C489,country
+Falkland Islands,Q1249802,FK,C489,country
+Guyana,Q734,GY,C489,country
+Paraguay,Q733,PY,C489,country
+Peru,Q419,PE,C489,country
+Surinam,Q730,SR,C489,country
+Uruguay,Q77,UY,C489,country
+Rest of World: Africa,,C488,C72,country
+Morocco,Q1028,MA,C488,country
+Tunisia,Q948,TN,C488,country
+Egypt,Q79,EG,C488,country
+South Africa,Q258,ZA,C488,country
+Rest of Africa,,C494,C488,country
+Rest of French Franc Zone,,C469,C494,country
+Benin,Q962,BJ,C469,country
+Burkina Faso,Q965,BF,C469,country
+Cameroon,Q1009,CM,C469,country
+Central African Republic,Q929,CF,C469,country
+Chad,Q657,TD,C469,country
+Comoros,Q970,KM,C469,country
+Congo (Republic),Q971,CG,C469,country
+Equatorial Guinea,Q983,GQ,C469,country
+Guinea Bissau,Q1007,GW,C469,country
+Ivory Coast,Q1008,CI,C469,country
+Mali,Q912,ML,C469,country
+Mayotte,Q17063,YT,C469,country
+Niger,Q1032,NE,C469,country
+Senegal,Q1041,SN,C469,country
+Togo,Q945,TG,C469,country
+Rest of Africa ACP,,C470,C494,country
+Angola,Q916,AO,C470,country
+Botswana,Q963,BW,C470,country
+Burundi,Q967,BI,C470,country
+Cape Verde,Q1011,CV,C470,country
+Congo (Democratic Republic),Q974,CD,C470,country
+Djibouti,Q977,DJ,C470,country
+Eritrea,Q986,ER,C470,country
+Ethiopia,Q115,ET,C470,country
+Gambia,Q1005,GM,C470,country
+Ghana,Q117,GH,C470,country
+Guinea,Q1006,GN,C470,country
+Kenya,Q114,KE,C470,country
+Lesotho,Q1013,LS,C470,country
+Liberia,Q1014,LR,C470,country
+Madagascar,Q1019,MG,C470,country
+Malawi,Q1020,MW,C470,country
+Mauritania,Q1025,MR,C470,country
+Mauritius,Q1027,MU,C470,country
+Mozambique,Q1029,MZ,C470,country
+Namibia,Q1030,,C470,country
+Rwanda,Q1037,RW,C470,country
+Sao Tome & Principe,Q1039,ST,C470,country
+Seychelles,Q1042,SC,C470,country
+Sierra Leone,Q1044,SL,C470,country
+Somalia,Q1045,SO,C470,country
+Sudan,Q1049,SD,C470,country
+Swaziland,Q1050,SZ,C470,country
+Tanzania,Q924,TZ,C470,country
+Uganda,Q1036,UG,C470,country
+Zambia,Q953,ZM,C470,country
+Zimbabwe,Q954,ZW,C470,country
+Rest of Africa nes,,C471,C494,country
+British Indian Ocean Territory,Q43448,IO,C471,country
+St. Helena,Q34497,SH,C471,country
+Rest of World: Asia,,C490,C72,country
+China,Q148,CN,C490,country
+Hong Kong,Q8646,HK,C490,country
+India,Q668,IN,C490,country
+Israel,Q801,IL,C490,country
+Lebanon,Q822,LB,C490,country
+Malaysia,Q833,MY,C490,country
+Pakistan,Q843,PK,C490,country
+Philippines,Q928,PH,C490,country
+Singapore,Q334,SG,C490,country
+Taiwan,Q865,TW,C490,country
+Thailand,Q869,TH,C490,country
+Vietnam,Q881,VN,C490,country
+Yemen,Q805,YE,C490,country
+Former Soviet Near & Middle East,,C477,C490,country
+Armenia,Q399,AM,C477,country
+Azerbaijan,Q227,AZ,C477,country
+Georgia,Q230,GE,C477,country
+Other Former Soviet Asia,,C478,C490,country
+Kazakhstan,Q232,KZ,C478,country
+Kyrgyz Republic,Q813,KG,C478,country
+Tajikistan,Q863,TJ,C478,country
+Turkmenistan,Q874,TM,C478,country
+Uzbekistan,Q265,UZ,C478,country
+Rest of Near & Middle East,,C481,C490,country
+Jordan,Q810,JO,C481,country
+Occupied Palestinian Territory,Q407199,PS,C481,country
+Syria,Q858,SY,C481,country
+Rest of ASEAN,,C479,C490,country
+Myanmar,Q836,MM,C479,country
+Laos,Q819,LA,C479,country
+Cambodia,Q424,KH,C479,country
+Rest of Other Asia,,C480,C490,country
+Afghanistan,Q889,AF,C480,country
+Bangladesh,Q902,BD,C480,country
+Maldives,Q826,MV,C480,country
+Sri Lanka,Q854,LK,C480,country
+Nepal,Q837,NP,C480,country
+Bhutan,Q917,BT,C480,country
+Mongolia,Q711,MN,C480,country
+North Korea,Q423,KP,C480,country
+Macao,Q642005,MO,C480,country
+Rest of World: Oceania,,C415,C72,country
+Papua New Guinea,Q691,PG,C415,country
+Vanuatu,Q686,VU,C415,country
+Australian Oceania,,C441,C415,country
+Cocos Islands,Q36004,CC,C441,country
+Christmas Islands,Q31063,CX,C441,country
+Heard & McDonald Islands,Q131198,HM,C441,country
+Norfolk Islands,Q31057,NF,C441,country
+US Oceania,,C442,C415,country
+American Samoa,Q16641,AS,C442,country
+Guam,Q16635,GU,C442,country
+US Minor Outlying Islands,,UM,C442,country
+New Zealand Oceania,,C443,C415,country
+Cook Islands,Q26988,CK,C443,country
+Niue Island,Q34020,NU,C443,country
+Tokelau Islands,Q9380379,TK,C443,country
+Polar Regions,,C444,C415,country
+Antarctica,,AQ,C444,country
+Bouvet Island,Q23408,BV,C444,country
+French Southern Territories,Q129003,TF,C444,country
+South Georgia,Q1137202,GS,C444,country
+Other Oceania,,C491,C415,country
+Fiji,Q712,FJ,C491,country
+French Polynesia,Q30971,PF,C491,country
+Kiribati,Q710,KI,C491,country
+Marshall Islands,Q709,MH,C491,country
+Micronesia,Q702,FM,C491,country
+Nauru,Q697,NR,C491,country
+New Caledonia,Q33788,NC,C491,country
+Northern Mariana Islands,Q16644,MP,C491,country
+Palau,Q695,PW,C491,country
+Pitcairn,Q35672,PN,C491,country
+Samoa,Q683,WS,C491,country
+Solomon Islands,Q685,SB,C491,country
+Tonga,Q678,TO,C491,country
+Tuvalu,Q672,TV,C491,country
+Wallis & Futuna,Q35555,WF,C491,country
+Extra EU-27 or Rest of world excluding EU-27 countries,,V2,,country
+Europe,,E1,,country
+Other Europe,,E2,E1,country
+Residual Europe (aka R1-Residual other Europe),,8A,,country
+Non-EMU(13),,K3,,country
+Non-EMU(15),,K4,K3,country
+Non-EMU(16),,K5,K4,country
+Non-EMU(17),,K6,K5,country
+Non-EMU(16) excluding DK and SE,,S5,,country
+Non-EMU(17) excluding DK and SE,,S6,S5,country
+Extra Euro Area(13),,J3,,country
+Extra Euro Area(15),,J4,J3,country
+Extra Euro Area(16),,J5,J4,country
+Extra Euro Area(17),,J6,J5,country
+Extra Euro Area(18),,J7,J6,country
+Africa,,E4,J7,country
+North Africa,,E5,E4,country
+Residual North Africa,,R9,E5,country
+Other Africa,,E6,E4,country
+Residual Other Africa (aka R2 - Residual Other Africa,,8C,E6,country
+Residual Other Africa exc Nigeria,,8D,8C,country
+Western Sahara,,EH,E6,country
+South Sudan,Q958,SS,E6,country
+America,Q30,E7,J7,country
+North America (BoP),,E8,E7,country
+Central America,,E9,E7,country
+Residual Central America,,R3,E9,country
+Saint Barthelemy,Q25362,BL,E9,country
+Bonaire,Q25396,BQ,E9,country
+Curacao,Q25279,CW,E9,country
+Sint Maarten,Q26273,SX,E9,country
+South America,,F1,E7,country
+Asia,,F2,J7,country
+Near & Middle East,,F3,F2,country
+Gulf Arabian Countries,,F4,F3,country
+Residual Gulf Arabian (aka R5-Residual Gulf Arabian),,J8,F4,country
+Other Near & Middle East,,F5,F3,country
+Other Asia,,F6,F2,country
+Residual Asia (aka R6-Residual Asia),,8B,F6,country
+Oceania & Polar Regions,,F7,J7,country
+OECD,,A8,,country
+ASEAN,,B3,,country
+OPEC,,B4,,country
+ACP,,B5,,country
+African ACP,,C449,B5,country
+Caribbean ACP,,C450,B5,country
+Pacific ACP,,C451,B5,country
+NICs1,,B9,,country
+NICs2A,,C453,,country
+NICs2LA,,C454,,country
+CIS,,C6,,country
+Central & Eastern Europe,,C402,,country
+Baltic Countries,,E3,C402,country
+Offshore Financial Centres,,C405,,country
+EEA,,C445,,country
+Latin America,,C447,,country
+Mercosur countries,,C459,C447,country
+Mediterranean Basin,,C455,,country
+Former Yugoslavia,,C93,C455,country
+French Franc Zone,,C456,,country
+Maghreb countries,,C457,,country
+Mashrek countries,,C458,,country
+APEC,,C460,,country
+Residual America (aka R8- Residual America),,C462,,country
+used to aggregate suppressed data,,999X,,country
+Unknown Country A,,X997,999X,country
+Unknown Country B,,X999,999X,country
+Unknown Country C,,X977,999X,country
+Extra EU-25 - world less EU-25 countries,,D5,,country
+France & Saint Barthelemy,,FRB,,country
+EMU(18),,I7,,country
+EMU(17) Euro Area 17,,I6,I7,country
+EMU(16),,I5,I6,country
+EMU(15),,I4,I5,country
+EMU(13) Euro Area 13,,I3,I4,country
+World total excl EU-27,,V4,,country
+Store & provisions EU ships,,QR,,country
+Stores & provisions non-EU ships,,QS,,country
+Euro area (19),,I8,,country
+European Central Bank,,4F,I8,country
+European Stability Mechanism,,4S,I8,country
+"Euro Area, Changing Composition",,U29,I8,country
+EU countries non Euro,,K8,,country
+EU Institutions (non Euro area),,4A,K8,country

@@ -1,371 +1,371 @@
-Label,Wikidata ID,Notation,Parent Notation
-Whole world,,A1,
-Total EU(28),,V3,A1
-Total EU (27),,V1,A1
-Total EU (25),,D3,A1
-Total EU (15),,D2,A1
-Austria,Q40,AT,A1
-Belgium & Luxembourg,,A3,A1
-Belgium,Q31,BE,A1
-Luxembourg,Q32,LU,A1
-Denmark,Q35,DK,A1
-Finland,Q33,FI,A1
-France,Q142,FR,A1
-Germany,Q183,DE,A1
-Greece,Q41,GR,A1
-Irish Republic,Q27,IE,A1
-Italy,Q38,IT,A1
-Netherlands,Q55,NL,A1
-Portugal,Q45,PT,A1
-Spain,Q29,ES,A1
-Sweden,Q34,SE,A1
-Cyprus,Q229,CY,A1
-Czech Republic,Q213,CZ,A1
-Estonia,Q191,EE,A1
-Hungary,Q28,HU,A1
-Latvia,Q211,LV,A1
-Lithuania,Q37,LT,A1
-Malta,Q233,MT,A1
-Poland,Q36,PL,A1
-Slovakia,Q214,SK,A1
-Slovenia,Q215,SI,A1
-Bulgaria,Q219,BG,A1
-Romania,Q218,RO,A1
-Croatia,Q224,HR,A1
-"Non-EU ( D4 is known as Extra EU-15, here it is REst of World or V2)",,D4,A1
-Rest of Western Europe,,C80,A1
-EFTA,,A5,A1
-Iceland,Q189,IS,A1
-Liechtenstein,Q347,LI,A1
-Norway,Q20,NO,A1
-Switzerland,Q39,CH,A1
-Gibraltar,Q21958349,GI,A1
-Turkey,Q43,TR,A1
-Other Western Europe,,C482,A1
-Andorra,Q228,AD,A1
-Faroe Islands,Q4628,FO,A1
-Jersey,Q785,JE,A1
-San Marino,Q238,SM,A1
-Vatican City,Q237,VA,A1
-North America,Q49,C83,A1
-NAFTA,,B1,A1
-Canada,Q16,CA,A1
-Mexico,Q96,MX,A1
-United States,Q30,US,A1
-United States exc Puerto Rico,,US1,A1
-United States inc Puerto Rico,,US2,A1
-Puerto Rico,Q1183,PR,A1
-Other North America,,C484,A1
-Greenland,Q223,GL,A1
-St. Pierre & Miquelon,Q34617,PM,A1
-Other OECD countries,,C76,A1
-Australia,Q408,AU,A1
-Japan,Q17,JP,A1
-New Zealand,Q664,NZ,A1
-South Korea,Q884,KR,A1
-Ceuta,Q5823,XC,A1
-Melilla,Q5831,XL,A1
-Oil exporting countries,,C77,A1
-Saudi Arabia,Q851,SA,A1
-United Arab Emirates,Q878,AE,A1
-United Arab Emirates (HMRC),Q878,AE1,A1
-Abu Dhabi,Q187712,DH,A1
-Dubai,Q613,DU,A1
-Sharjah etc,,HA,A1
-Other Gulf Arabian,,C486,A1
-Bahrain,Q398,BH,A1
-Kuwait,Q817,KW,A1
-Iraq,Q796,IQ,A1
-Oman,Q842,OM,A1
-Qatar,Q846,QA,A1
-Other oil exporters,,C487,A1
-Algeria,Q262,DZ,A1
-Brunei,Q921,BN,A1
-East Timor,Q574,TL,A1
-Ecuador,Q736,EC,A1
-Gabon,Q1000,GA,A1
-Indonesia,Q252,ID,A1
-Iran,Q794,IR,A1
-Libya,Q1016,LY,A1
-Nigeria,Q1033,NG,A1
-Trinidad & Tobago,Q754,TT,A1
-Venezuela,Q717,VE,A1
-Rest of World,,C72,A1
-Rest of World: Europe,,C493,A1
-Albania,Q222,AL,A1
-Belarus,Q184,BY,A1
-Bosnia & Herzegovina,Q225,BA,A1
-FYR Macedonia,Q221,MK,A1
-Moldova,Q217,MD,A1
-Russia,Q159,RU,A1
-Yugoslavia,Q36704,C114,A1
-Serbia and Montenegro,Q37024,CS,A1
-Montenegro,Q236,ME,A1
-Serbia,Q403,XS,A1
-Kosovo,Q1246,XK,A1
-Ukraine,Q212,UA,A1
-Rest of World: Central America,,C472,A1
-Bahamas,Q778,BS,A1
-Barbados,Q244,BB,A1
-Jamaica,Q766,JM,A1
-Panama,Q804,PA,A1
-St Kitts & Nevis,Q763,KN,A1
-Central America Offshores,,C473,A1
-Bermuda,Q23635,BM,A1
-British Virgin Islands,Q25305,VG,A1
-Cayman Islands,Q5785,KY,A1
-Montserrat,Q13353,MS,A1
-Netherlands Antilles,Q25227,AN,A1
-Other Caribbean ACP,,C474,A1
-Antigua & Barbuda,Q781,AG,A1
-Belize,Q242,BZ,A1
-Dominica,Q784,DM,A1
-Dominican Republic,Q786,DO,A1
-Grenada,Q769,GD,A1
-Haiti,Q790,HT,A1
-St Lucia,Q760,LC,A1
-St Vincent,Q757,VC,A1
-Other Latin America,,C475,A1
-Costa Rica,Q800,CR,A1
-Cuba,Q241,CU,A1
-El Salvador,Q792,SV,A1
-Guatemala,Q774,GT,A1
-Honduras,Q783,HN,A1
-Nicaragua,Q811,NI,A1
-Other Caribbean,,C476,A1
-Anguilla,Q25228,AI,A1
-Aruba,Q21203,AW,A1
-Turks & Caicos Islands,Q18221,TC,A1
-US Virgin Islands,Q11703,VI,A1
-Rest of World: South America,,C489,A1
-Argentina,Q414,AR,A1
-Bolivia,Q750,BO,A1
-Brazil,Q155,BR,A1
-Chile,Q298,CL,A1
-Colombia,Q739,CO,A1
-Falkland Islands,Q1249802,FK,A1
-Guyana,Q734,GY,A1
-Paraguay,Q733,PY,A1
-Peru,Q419,PE,A1
-Surinam,Q730,SR,A1
-Uruguay,Q77,UY,A1
-Rest of World: Africa,,C488,A1
-Morocco,Q1028,MA,A1
-Tunisia,Q948,TN,A1
-Egypt,Q79,EG,A1
-South Africa,Q258,ZA,A1
-Rest of Africa,,C494,A1
-Rest of French Franc Zone,,C469,A1
-Benin,Q962,BJ,A1
-Burkina Faso,Q965,BF,A1
-Cameroon,Q1009,CM,A1
-Central African Republic,Q929,CF,A1
-Chad,Q657,TD,A1
-Comoros,Q970,KM,A1
-Congo (Republic),Q971,CG,A1
-Equatorial Guinea,Q983,GQ,A1
-Guinea Bissau,Q1007,GW,A1
-Ivory Coast,Q1008,CI,A1
-Mali,Q912,ML,A1
-Mayotte,Q17063,YT,A1
-Niger,Q1032,NE,A1
-Senegal,Q1041,SN,A1
-Togo,Q945,TG,A1
-Rest of Africa ACP,,C470,A1
-Angola,Q916,AO,A1
-Botswana,Q963,BW,A1
-Burundi,Q967,BI,A1
-Cape Verde,Q1011,CV,A1
-Congo (Democratic Republic),Q974,CD,A1
-Djibouti,Q977,DJ,A1
-Eritrea,Q986,ER,A1
-Ethiopia,Q115,ET,A1
-Gambia,Q1005,GM,A1
-Ghana,Q117,GH,A1
-Guinea,Q1006,GN,A1
-Kenya,Q114,KE,A1
-Lesotho,Q1013,LS,A1
-Liberia,Q1014,LR,A1
-Madagascar,Q1019,MG,A1
-Malawi,Q1020,MW,A1
-Mauritania,Q1025,MR,A1
-Mauritius,Q1027,MU,A1
-Mozambique,Q1029,MZ,A1
-Namibia,Q1030,,
-Rwanda,Q1037,RW,A1
-Sao Tome & Principe,Q1039,ST,A1
-Seychelles,Q1042,SC,A1
-Sierra Leone,Q1044,SL,A1
-Somalia,Q1045,SO,A1
-Sudan,Q1049,SD,A1
-Swaziland,Q1050,SZ,A1
-Tanzania,Q924,TZ,A1
-Uganda,Q1036,UG,A1
-Zambia,Q953,ZM,A1
-Zimbabwe,Q954,ZW,A1
-Rest of Africa nes,,C471,A1
-British Indian Ocean Territory,Q43448,IO,A1
-St. Helena,Q34497,SH,A1
-Rest of World: Asia,,C490,A1
-China,Q148,CN,A1
-Hong Kong,Q8646,HK,A1
-India,Q668,IN,A1
-Israel,Q801,IL,A1
-Lebanon,Q822,LB,A1
-Malaysia,Q833,MY,A1
-Pakistan,Q843,PK,A1
-Philippines,Q928,PH,A1
-Singapore,Q334,SG,A1
-Taiwan,Q865,TW,A1
-Thailand,Q869,TH,A1
-Vietnam,Q881,VN,A1
-Yemen,Q805,YE,A1
-Former Soviet Near & Middle East,,C477,A1
-Armenia,Q399,AM,A1
-Azerbaijan,Q227,AZ,A1
-Georgia,Q230,GE,A1
-Other Former Soviet Asia,,C478,A1
-Kazakhstan,Q232,KZ,A1
-Kyrgyz Republic,Q813,KG,A1
-Tajikistan,Q863,TJ,A1
-Turkmenistan,Q874,TM,A1
-Uzbekistan,Q265,UZ,A1
-Rest of Near & Middle East,,C481,A1
-Jordan,Q810,JO,A1
-Occupied Palestinian Territory,Q407199,PS,A1
-Syria,Q858,SY,A1
-Rest of ASEAN,,C479,A1
-Myanmar,Q836,MM,A1
-Laos,Q819,LA,A1
-Cambodia,Q424,KH,A1
-Rest of Other Asia,,C480,A1
-Afghanistan,Q889,AF,A1
-Bangladesh,Q902,BD,A1
-Maldives,Q826,MV,A1
-Sri Lanka,Q854,LK,A1
-Nepal,Q837,NP,A1
-Bhutan,Q917,BT,A1
-Mongolia,Q711,MN,A1
-North Korea,Q423,KP,A1
-Macao,Q642005,MO,A1
-Rest of World: Oceania,,C415,A1
-Papua New Guinea,Q691,PG,A1
-Vanuatu,Q686,VU,A1
-Australian Oceania,,C441,A1
-Cocos Islands,Q36004,CC,A1
-Christmas Islands,Q31063,CX,A1
-Heard & McDonald Islands,Q131198,HM,A1
-Norfolk Islands,Q31057,NF,A1
-US Oceania,,C442,A1
-American Samoa,Q16641,AS,A1
-Guam,Q16635,GU,A1
-US Minor Outlying Islands,,UM,A1
-New Zealand Oceania,,C443,A1
-Cook Islands,Q26988,CK,A1
-Niue Island,Q34020,NU,A1
-Tokelau Islands,Q9380379,TK,A1
-Polar Regions,,C444,A1
-Antarctica,,AQ,A1
-Bouvet Island,Q23408,BV,A1
-French Southern Territories,Q129003,TF,A1
-South Georgia,Q1137202,GS,A1
-Other Oceania,,C491,A1
-Fiji,Q712,FJ,A1
-French Polynesia,Q30971,PF,A1
-Kiribati,Q710,KI,A1
-Marshall Islands,Q709,MH,A1
-Micronesia,Q702,FM,A1
-Nauru,Q697,NR,A1
-New Caledonia,Q33788,NC,A1
-Northern Mariana Islands,Q16644,MP,A1
-Palau,Q695,PW,A1
-Pitcairn,Q35672,PN,A1
-Samoa,Q683,WS,A1
-Solomon Islands,Q685,SB,A1
-Tonga,Q678,TO,A1
-Tuvalu,Q672,TV,A1
-Wallis & Futuna,Q35555,WF,A1
-Extra EU-27 or Rest of world excluding EU-27 countries,,V2,A1
-Europe,,E1,A1
-Other Europe,,E2,A1
-Residual Europe (aka R1-Residual other Europe),,8A,A1
-Non-EMU(13),,K3,A1
-Non-EMU(15),,K4,A1
-Non-EMU(16),,K5,A1
-Non-EMU(17),,K6,A1
-Non-EMU(16) excluding DK and SE,,S5,A1
-Non-EMU(17) excluding DK and SE,,S6,A1
-Extra Euro Area(13),,J3,A1
-Extra Euro Area(15),,J4,A1
-Extra Euro Area(16),,J5,A1
-Extra Euro Area(17),,J6,A1
-Extra Euro Area(18),,J7,A1
-Africa,,E4,A1
-North Africa,,E5,A1
-Residual North Africa,,R9,A1
-Other Africa,,E6,A1
-Residual Other Africa (aka R2 - Residual Other Africa,,8C,A1
-Residual Other Africa exc Nigeria,,8D,A1
-Western Sahara,,EH,A1
-South Sudan,Q958,SS,A1
-America,Q30,E7,A1
-North America (BoP),,E8,A1
-Central America,,E9,A1
-Residual Central America,,R3,A1
-Saint Barthelemy,Q25362,BL,A1
-Bonaire,Q25396,BQ,A1
-Curacao,Q25279,CW,A1
-Sint Maarten,Q26273,SX,A1
-South America,,F1,A1
-Asia,,F2,A1
-Near & Middle East,,F3,A1
-Gulf Arabian Countries,,F4,A1
-Residual Gulf Arabian (aka R5-Residual Gulf Arabian),,J8,A1
-Other Near & Middle East,,F5,A1
-Other Asia,,F6,A1
-Residual Asia (aka R6-Residual Asia),,8B,A1
-Oceania & Polar Regions,,F7,A1
-OECD,,A8,A1
-ASEAN,,B3,A1
-OPEC,,B4,A1
-ACP,,B5,A1
-African ACP,,C449,A1
-Caribbean ACP,,C450,A1
-Pacific ACP,,C451,A1
-NICs1,,B9,A1
-NICs2A,,C453,A1
-NICs2LA,,C454,A1
-CIS,,C6,A1
-Central & Eastern Europe,,C402,A1
-Baltic Countries,,E3,A1
-Offshore Financial Centres,,C405,A1
-EEA,,C445,A1
-Latin America,,C447,A1
-Mercosur countries,,C459,A1
-Mediterranean Basin,,C455,A1
-Former Yugoslavia,,C93,A1
-French Franc Zone,,C456,A1
-Maghreb countries,,C457,A1
-Mashrek countries,,C458,A1
-APEC,,C460,A1
-Residual America (aka R8- Residual America),,C462,A1
-used to aggregate suppressed data,,999X,A1
-Unknown Country A,,X997,A1
-Unknown Country B,,X999,A1
-Unknown Country C,,X977,A1
-Extra EU-25 - world less EU-25 countries,,D5,A1
-France & Saint Barthelemy,,FRB,A1
-EMU(18),,I7,A1
-EMU(17) Euro Area 17,,I6,A1
-EMU(16),,I5,A1
-EMU(15),,I4,A1
-EMU(13) Euro Area 13,,I3,A1
-World total excl EU-27,,V4,A1
-Store & provisions EU ships,,QR,A1
-Stores & provisions non-EU ships,,QS,A1
-Euro area (19),,I8,A1
-European Central Bank,,4F,A1
-European Stability Mechanism,,4S,A1
-"Euro Area, Changing Composition",,U29,A1
-EU countries non Euro,,K8,A1
-EU Institutions (non Euro area),,4A,A1
+Label,Wikidata ID,Notation,Parent Notation,Collection Slug
+Whole world,,A1,,world
+Total EU(28),,V3,A1,country
+Total EU (27),,V1,A1,country
+Total EU (25),,D3,A1,country
+Total EU (15),,D2,A1,country
+Austria,Q40,AT,A1,country
+Belgium & Luxembourg,,A3,A1,country
+Belgium,Q31,BE,A1,country
+Luxembourg,Q32,LU,A1,country
+Denmark,Q35,DK,A1,country
+Finland,Q33,FI,A1,country
+France,Q142,FR,A1,country
+Germany,Q183,DE,A1,country
+Greece,Q41,GR,A1,country
+Irish Republic,Q27,IE,A1,country
+Italy,Q38,IT,A1,country
+Netherlands,Q55,NL,A1,country
+Portugal,Q45,PT,A1,country
+Spain,Q29,ES,A1,country
+Sweden,Q34,SE,A1,country
+Cyprus,Q229,CY,A1,country
+Czech Republic,Q213,CZ,A1,country
+Estonia,Q191,EE,A1,country
+Hungary,Q28,HU,A1,country
+Latvia,Q211,LV,A1,country
+Lithuania,Q37,LT,A1,country
+Malta,Q233,MT,A1,country
+Poland,Q36,PL,A1,country
+Slovakia,Q214,SK,A1,country
+Slovenia,Q215,SI,A1,country
+Bulgaria,Q219,BG,A1,country
+Romania,Q218,RO,A1,country
+Croatia,Q224,HR,A1,country
+"Non-EU ( D4 is known as Extra EU-15, here it is REst of World or V2)",,D4,A1,country
+Rest of Western Europe,,C80,A1,country
+EFTA,,A5,A1,country
+Iceland,Q189,IS,A1,country
+Liechtenstein,Q347,LI,A1,country
+Norway,Q20,NO,A1,country
+Switzerland,Q39,CH,A1,country
+Gibraltar,Q21958349,GI,A1,country
+Turkey,Q43,TR,A1,country
+Other Western Europe,,C482,A1,country
+Andorra,Q228,AD,A1,country
+Faroe Islands,Q4628,FO,A1,country
+Jersey,Q785,JE,A1,country
+San Marino,Q238,SM,A1,country
+Vatican City,Q237,VA,A1,country
+North America,Q49,C83,A1,country
+NAFTA,,B1,A1,country
+Canada,Q16,CA,A1,country
+Mexico,Q96,MX,A1,country
+United States,Q30,US,A1,country
+United States exc Puerto Rico,,US1,A1,country
+United States inc Puerto Rico,,US2,A1,country
+Puerto Rico,Q1183,PR,A1,country
+Other North America,,C484,A1,country
+Greenland,Q223,GL,A1,country
+St. Pierre & Miquelon,Q34617,PM,A1,country
+Other OECD countries,,C76,A1,country
+Australia,Q408,AU,A1,country
+Japan,Q17,JP,A1,country
+New Zealand,Q664,NZ,A1,country
+South Korea,Q884,KR,A1,country
+Ceuta,Q5823,XC,A1,country
+Melilla,Q5831,XL,A1,country
+Oil exporting countries,,C77,A1,country
+Saudi Arabia,Q851,SA,A1,country
+United Arab Emirates,Q878,AE,A1,country
+United Arab Emirates (HMRC),Q878,AE1,A1,country
+Abu Dhabi,Q187712,DH,A1,country
+Dubai,Q613,DU,A1,country
+Sharjah etc,,HA,A1,country
+Other Gulf Arabian,,C486,A1,country
+Bahrain,Q398,BH,A1,country
+Kuwait,Q817,KW,A1,country
+Iraq,Q796,IQ,A1,country
+Oman,Q842,OM,A1,country
+Qatar,Q846,QA,A1,country
+Other oil exporters,,C487,A1,country
+Algeria,Q262,DZ,A1,country
+Brunei,Q921,BN,A1,country
+East Timor,Q574,TL,A1,country
+Ecuador,Q736,EC,A1,country
+Gabon,Q1000,GA,A1,country
+Indonesia,Q252,ID,A1,country
+Iran,Q794,IR,A1,country
+Libya,Q1016,LY,A1,country
+Nigeria,Q1033,NG,A1,country
+Trinidad & Tobago,Q754,TT,A1,country
+Venezuela,Q717,VE,A1,country
+Rest of World,,C72,A1,country
+Rest of World: Europe,,C493,A1,country
+Albania,Q222,AL,A1,country
+Belarus,Q184,BY,A1,country
+Bosnia & Herzegovina,Q225,BA,A1,country
+FYR Macedonia,Q221,MK,A1,country
+Moldova,Q217,MD,A1,country
+Russia,Q159,RU,A1,country
+Yugoslavia,Q36704,C114,A1,country
+Serbia and Montenegro,Q37024,CS,A1,country
+Montenegro,Q236,ME,A1,country
+Serbia,Q403,XS,A1,country
+Kosovo,Q1246,XK,A1,country
+Ukraine,Q212,UA,A1,country
+Rest of World: Central America,,C472,A1,country
+Bahamas,Q778,BS,A1,country
+Barbados,Q244,BB,A1,country
+Jamaica,Q766,JM,A1,country
+Panama,Q804,PA,A1,country
+St Kitts & Nevis,Q763,KN,A1,country
+Central America Offshores,,C473,A1,country
+Bermuda,Q23635,BM,A1,country
+British Virgin Islands,Q25305,VG,A1,country
+Cayman Islands,Q5785,KY,A1,country
+Montserrat,Q13353,MS,A1,country
+Netherlands Antilles,Q25227,AN,A1,country
+Other Caribbean ACP,,C474,A1,country
+Antigua & Barbuda,Q781,AG,A1,country
+Belize,Q242,BZ,A1,country
+Dominica,Q784,DM,A1,country
+Dominican Republic,Q786,DO,A1,country
+Grenada,Q769,GD,A1,country
+Haiti,Q790,HT,A1,country
+St Lucia,Q760,LC,A1,country
+St Vincent,Q757,VC,A1,country
+Other Latin America,,C475,A1,country
+Costa Rica,Q800,CR,A1,country
+Cuba,Q241,CU,A1,country
+El Salvador,Q792,SV,A1,country
+Guatemala,Q774,GT,A1,country
+Honduras,Q783,HN,A1,country
+Nicaragua,Q811,NI,A1,country
+Other Caribbean,,C476,A1,country
+Anguilla,Q25228,AI,A1,country
+Aruba,Q21203,AW,A1,country
+Turks & Caicos Islands,Q18221,TC,A1,country
+US Virgin Islands,Q11703,VI,A1,country
+Rest of World: South America,,C489,A1,country
+Argentina,Q414,AR,A1,country
+Bolivia,Q750,BO,A1,country
+Brazil,Q155,BR,A1,country
+Chile,Q298,CL,A1,country
+Colombia,Q739,CO,A1,country
+Falkland Islands,Q1249802,FK,A1,country
+Guyana,Q734,GY,A1,country
+Paraguay,Q733,PY,A1,country
+Peru,Q419,PE,A1,country
+Surinam,Q730,SR,A1,country
+Uruguay,Q77,UY,A1,country
+Rest of World: Africa,,C488,A1,country
+Morocco,Q1028,MA,A1,country
+Tunisia,Q948,TN,A1,country
+Egypt,Q79,EG,A1,country
+South Africa,Q258,ZA,A1,country
+Rest of Africa,,C494,A1,country
+Rest of French Franc Zone,,C469,A1,country
+Benin,Q962,BJ,A1,country
+Burkina Faso,Q965,BF,A1,country
+Cameroon,Q1009,CM,A1,country
+Central African Republic,Q929,CF,A1,country
+Chad,Q657,TD,A1,country
+Comoros,Q970,KM,A1,country
+Congo (Republic),Q971,CG,A1,country
+Equatorial Guinea,Q983,GQ,A1,country
+Guinea Bissau,Q1007,GW,A1,country
+Ivory Coast,Q1008,CI,A1,country
+Mali,Q912,ML,A1,country
+Mayotte,Q17063,YT,A1,country
+Niger,Q1032,NE,A1,country
+Senegal,Q1041,SN,A1,country
+Togo,Q945,TG,A1,country
+Rest of Africa ACP,,C470,A1,country
+Angola,Q916,AO,A1,country
+Botswana,Q963,BW,A1,country
+Burundi,Q967,BI,A1,country
+Cape Verde,Q1011,CV,A1,country
+Congo (Democratic Republic),Q974,CD,A1,country
+Djibouti,Q977,DJ,A1,country
+Eritrea,Q986,ER,A1,country
+Ethiopia,Q115,ET,A1,country
+Gambia,Q1005,GM,A1,country
+Ghana,Q117,GH,A1,country
+Guinea,Q1006,GN,A1,country
+Kenya,Q114,KE,A1,country
+Lesotho,Q1013,LS,A1,country
+Liberia,Q1014,LR,A1,country
+Madagascar,Q1019,MG,A1,country
+Malawi,Q1020,MW,A1,country
+Mauritania,Q1025,MR,A1,country
+Mauritius,Q1027,MU,A1,country
+Mozambique,Q1029,MZ,A1,country
+Namibia,Q1030,,,country
+Rwanda,Q1037,RW,A1,country
+Sao Tome & Principe,Q1039,ST,A1,country
+Seychelles,Q1042,SC,A1,country
+Sierra Leone,Q1044,SL,A1,country
+Somalia,Q1045,SO,A1,country
+Sudan,Q1049,SD,A1,country
+Swaziland,Q1050,SZ,A1,country
+Tanzania,Q924,TZ,A1,country
+Uganda,Q1036,UG,A1,country
+Zambia,Q953,ZM,A1,country
+Zimbabwe,Q954,ZW,A1,country
+Rest of Africa nes,,C471,A1,country
+British Indian Ocean Territory,Q43448,IO,A1,country
+St. Helena,Q34497,SH,A1,country
+Rest of World: Asia,,C490,A1,country
+China,Q148,CN,A1,country
+Hong Kong,Q8646,HK,A1,country
+India,Q668,IN,A1,country
+Israel,Q801,IL,A1,country
+Lebanon,Q822,LB,A1,country
+Malaysia,Q833,MY,A1,country
+Pakistan,Q843,PK,A1,country
+Philippines,Q928,PH,A1,country
+Singapore,Q334,SG,A1,country
+Taiwan,Q865,TW,A1,country
+Thailand,Q869,TH,A1,country
+Vietnam,Q881,VN,A1,country
+Yemen,Q805,YE,A1,country
+Former Soviet Near & Middle East,,C477,A1,country
+Armenia,Q399,AM,A1,country
+Azerbaijan,Q227,AZ,A1,country
+Georgia,Q230,GE,A1,country
+Other Former Soviet Asia,,C478,A1,country
+Kazakhstan,Q232,KZ,A1,country
+Kyrgyz Republic,Q813,KG,A1,country
+Tajikistan,Q863,TJ,A1,country
+Turkmenistan,Q874,TM,A1,country
+Uzbekistan,Q265,UZ,A1,country
+Rest of Near & Middle East,,C481,A1,country
+Jordan,Q810,JO,A1,country
+Occupied Palestinian Territory,Q407199,PS,A1,country
+Syria,Q858,SY,A1,country
+Rest of ASEAN,,C479,A1,country
+Myanmar,Q836,MM,A1,country
+Laos,Q819,LA,A1,country
+Cambodia,Q424,KH,A1,country
+Rest of Other Asia,,C480,A1,country
+Afghanistan,Q889,AF,A1,country
+Bangladesh,Q902,BD,A1,country
+Maldives,Q826,MV,A1,country
+Sri Lanka,Q854,LK,A1,country
+Nepal,Q837,NP,A1,country
+Bhutan,Q917,BT,A1,country
+Mongolia,Q711,MN,A1,country
+North Korea,Q423,KP,A1,country
+Macao,Q642005,MO,A1,country
+Rest of World: Oceania,,C415,A1,country
+Papua New Guinea,Q691,PG,A1,country
+Vanuatu,Q686,VU,A1,country
+Australian Oceania,,C441,A1,country
+Cocos Islands,Q36004,CC,A1,country
+Christmas Islands,Q31063,CX,A1,country
+Heard & McDonald Islands,Q131198,HM,A1,country
+Norfolk Islands,Q31057,NF,A1,country
+US Oceania,,C442,A1,country
+American Samoa,Q16641,AS,A1,country
+Guam,Q16635,GU,A1,country
+US Minor Outlying Islands,,UM,A1,country
+New Zealand Oceania,,C443,A1,country
+Cook Islands,Q26988,CK,A1,country
+Niue Island,Q34020,NU,A1,country
+Tokelau Islands,Q9380379,TK,A1,country
+Polar Regions,,C444,A1,country
+Antarctica,,AQ,A1,country
+Bouvet Island,Q23408,BV,A1,country
+French Southern Territories,Q129003,TF,A1,country
+South Georgia,Q1137202,GS,A1,country
+Other Oceania,,C491,A1,country
+Fiji,Q712,FJ,A1,country
+French Polynesia,Q30971,PF,A1,country
+Kiribati,Q710,KI,A1,country
+Marshall Islands,Q709,MH,A1,country
+Micronesia,Q702,FM,A1,country
+Nauru,Q697,NR,A1,country
+New Caledonia,Q33788,NC,A1,country
+Northern Mariana Islands,Q16644,MP,A1,country
+Palau,Q695,PW,A1,country
+Pitcairn,Q35672,PN,A1,country
+Samoa,Q683,WS,A1,country
+Solomon Islands,Q685,SB,A1,country
+Tonga,Q678,TO,A1,country
+Tuvalu,Q672,TV,A1,country
+Wallis & Futuna,Q35555,WF,A1,country
+Extra EU-27 or Rest of world excluding EU-27 countries,,V2,A1,country
+Europe,,E1,A1,country
+Other Europe,,E2,A1,country
+Residual Europe (aka R1-Residual other Europe),,8A,A1,country
+Non-EMU(13),,K3,A1,country
+Non-EMU(15),,K4,A1,country
+Non-EMU(16),,K5,A1,country
+Non-EMU(17),,K6,A1,country
+Non-EMU(16) excluding DK and SE,,S5,A1,country
+Non-EMU(17) excluding DK and SE,,S6,A1,country
+Extra Euro Area(13),,J3,A1,country
+Extra Euro Area(15),,J4,A1,country
+Extra Euro Area(16),,J5,A1,country
+Extra Euro Area(17),,J6,A1,country
+Extra Euro Area(18),,J7,A1,country
+Africa,,E4,A1,country
+North Africa,,E5,A1,country
+Residual North Africa,,R9,A1,country
+Other Africa,,E6,A1,country
+Residual Other Africa (aka R2 - Residual Other Africa,,8C,A1,country
+Residual Other Africa exc Nigeria,,8D,A1,country
+Western Sahara,,EH,A1,country
+South Sudan,Q958,SS,A1,country
+America,Q30,E7,A1,country
+North America (BoP),,E8,A1,country
+Central America,,E9,A1,country
+Residual Central America,,R3,A1,country
+Saint Barthelemy,Q25362,BL,A1,country
+Bonaire,Q25396,BQ,A1,country
+Curacao,Q25279,CW,A1,country
+Sint Maarten,Q26273,SX,A1,country
+South America,,F1,A1,country
+Asia,,F2,A1,country
+Near & Middle East,,F3,A1,country
+Gulf Arabian Countries,,F4,A1,country
+Residual Gulf Arabian (aka R5-Residual Gulf Arabian),,J8,A1,country
+Other Near & Middle East,,F5,A1,country
+Other Asia,,F6,A1,country
+Residual Asia (aka R6-Residual Asia),,8B,A1,country
+Oceania & Polar Regions,,F7,A1,country
+OECD,,A8,A1,country
+ASEAN,,B3,A1,country
+OPEC,,B4,A1,country
+ACP,,B5,A1,country
+African ACP,,C449,A1,country
+Caribbean ACP,,C450,A1,country
+Pacific ACP,,C451,A1,country
+NICs1,,B9,A1,country
+NICs2A,,C453,A1,country
+NICs2LA,,C454,A1,country
+CIS,,C6,A1,country
+Central & Eastern Europe,,C402,A1,country
+Baltic Countries,,E3,A1,country
+Offshore Financial Centres,,C405,A1,country
+EEA,,C445,A1,country
+Latin America,,C447,A1,country
+Mercosur countries,,C459,A1,country
+Mediterranean Basin,,C455,A1,country
+Former Yugoslavia,,C93,A1,country
+French Franc Zone,,C456,A1,country
+Maghreb countries,,C457,A1,country
+Mashrek countries,,C458,A1,country
+APEC,,C460,A1,country
+Residual America (aka R8- Residual America),,C462,A1,country
+used to aggregate suppressed data,,999X,A1,country
+Unknown Country A,,X997,A1,country
+Unknown Country B,,X999,A1,country
+Unknown Country C,,X977,A1,country
+Extra EU-25 - world less EU-25 countries,,D5,A1,country
+France & Saint Barthelemy,,FRB,A1,country
+EMU(18),,I7,A1,country
+EMU(17) Euro Area 17,,I6,A1,country
+EMU(16),,I5,A1,country
+EMU(15),,I4,A1,country
+EMU(13) Euro Area 13,,I3,A1,country
+World total excl EU-27,,V4,A1,country
+Store & provisions EU ships,,QR,A1,country
+Stores & provisions non-EU ships,,QS,A1,country
+Euro area (19),,I8,A1,country
+European Central Bank,,4F,A1,country
+European Stability Mechanism,,4S,A1,country
+"Euro Area, Changing Composition",,U29,A1,country
+EU countries non Euro,,K8,A1,country
+EU Institutions (non Euro area),,4A,A1,country

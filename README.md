@@ -13,7 +13,7 @@ Run the test pipeline:
 
 Run the full pipeline (WIP):
 
-    $ lein run resources/cord-collections-single-parent.csv resources/cord-features-single-parent.csv cord-foi.nq
+    $ lein run resources/cord-collections-two-level.csv resources/cord-features-two-level.csv cord-foi.nq
 
 The resources folder also contains a world boundary taken from [Natural Earth Vector Data](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/) and "dissolved" into a single WKT boundary using QGIS.
 

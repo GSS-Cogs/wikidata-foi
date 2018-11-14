@@ -36,9 +36,9 @@
                 "datatype" "string"
                 "propertyUrl" "http://publishmydata.com/def/ontology/foi/singularDisplayName"}
                {"name" "label_plural"
-                "titles" "label_pural"
+                "titles" "label_plural"
                 "datatype" "string"
-                "propertyUrl" "http://publishmydata.com/def/ontology/foi/pluralDisplayName"}
+                "propertyUrl" "http://publishmydata.com/def/ontology/foi/pluralDisplayName"} ;;"rdfs:label"}
                {"name" "sort_priority"
                 "titles" "sort_priority"
                 "datatype" "integer"
