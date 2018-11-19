@@ -5,13 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20181119115634063" source="Polygon?uuid=a4494c38-e623-48d1-953f-b35b7a5a3693&amp;crs=EPSG:4326&amp;field=featurecla:string&amp;field=scalerank:integer&amp;field=LABELRANK:integer&amp;field=SOVEREIGNT:string&amp;field=SOV_A3:string&amp;field=ADM0_DIF:integer&amp;field=LEVEL:integer&amp;field=TYPE:string&amp;field=ADMIN:string&amp;field=ADM0_A3:string&amp;field=GEOU_DIF:integer&amp;field=GEOUNIT:string&amp;field=GU_A3:string&amp;field=SU_DIF:integer&amp;field=SUBUNIT:string&amp;field=SU_A3:string&amp;field=BRK_DIFF:integer&amp;field=NAME:string&amp;field=NAME_LONG:string&amp;field=BRK_A3:string&amp;field=BRK_NAME:string&amp;field=BRK_GROUP:string&amp;field=ABBREV:string&amp;field=POSTAL:string&amp;field=FORMAL_EN:string&amp;field=FORMAL_FR:string&amp;field=NAME_CIAWF:string&amp;field=NOTE_ADM0:string&amp;field=NOTE_BRK:string&amp;field=NAME_SORT:string&amp;field=NAME_ALT:string&amp;field=MAPCOLOR7:integer&amp;field=MAPCOLOR8:integer&amp;field=MAPCOLOR9:integer&amp;field=MAPCOLOR13:integer&amp;field=POP_EST:integer&amp;field=POP_RANK:integer&amp;field=GDP_MD_EST:double&amp;field=POP_YEAR:integer&amp;field=LASTCENSUS:integer&amp;field=GDP_YEAR:integer&amp;field=ECONOMY:string&amp;field=INCOME_GRP:string&amp;field=WIKIPEDIA:integer&amp;field=FIPS_10_:string&amp;field=ISO_A2:string&amp;field=ISO_A3:string&amp;field=ISO_A3_EH:string&amp;field=ISO_N3:string&amp;field=UN_A3:string&amp;field=WB_A2:string&amp;field=WB_A3:string&amp;field=WOE_ID:integer&amp;field=WOE_ID_EH:integer&amp;field=WOE_NOTE:string&amp;field=ADM0_A3_IS:string&amp;field=ADM0_A3_US:string&amp;field=ADM0_A3_UN:integer&amp;field=ADM0_A3_WB:integer&amp;field=CONTINENT:string&amp;field=REGION_UN:string&amp;field=SUBREGION:string&amp;field=REGION_WB:string&amp;field=NAME_LEN:integer&amp;field=LONG_LEN:integer&amp;field=ABBREV_LEN:integer&amp;field=TINY:integer&amp;field=HOMEPART:integer&amp;field=MIN_ZOOM:double&amp;field=MIN_LABEL:double&amp;field=MAX_LABEL:double&amp;field=NE_ID:integer&amp;field=WIKIDATAID:string&amp;field=NAME_AR:string&amp;field=NAME_BN:string&amp;field=NAME_DE:string&amp;field=NAME_EN:string&amp;field=NAME_ES:string&amp;field=NAME_FR:string&amp;field=NAME_EL:string&amp;field=NAME_HI:string&amp;field=NAME_HU:string&amp;field=NAME_ID:string&amp;field=NAME_IT:string&amp;field=NAME_JA:string&amp;field=NAME_KO:string&amp;field=NAME_NL:string&amp;field=NAME_PL:string&amp;field=NAME_PT:string&amp;field=NAME_RU:string&amp;field=NAME_SV:string&amp;field=NAME_TR:string&amp;field=NAME_VI:string&amp;field=NAME_ZH:string&amp;field=area:double&amp;field=perimeter:double" name="Simplified">
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20181119160633850" source="Polygon?uuid=34ea0a65-dd85-4271-b1f2-a8f812178077&amp;crs=EPSG:4326&amp;field=featurecla:string&amp;field=scalerank:integer&amp;field=LABELRANK:integer&amp;field=SOVEREIGNT:string&amp;field=SOV_A3:string&amp;field=ADM0_DIF:integer&amp;field=LEVEL:integer&amp;field=TYPE:string&amp;field=ADMIN:string&amp;field=ADM0_A3:string&amp;field=GEOU_DIF:integer&amp;field=GEOUNIT:string&amp;field=GU_A3:string&amp;field=SU_DIF:integer&amp;field=SUBUNIT:string&amp;field=SU_A3:string&amp;field=BRK_DIFF:integer&amp;field=NAME:string&amp;field=NAME_LONG:string&amp;field=BRK_A3:string&amp;field=BRK_NAME:string&amp;field=BRK_GROUP:string&amp;field=ABBREV:string&amp;field=POSTAL:string&amp;field=FORMAL_EN:string&amp;field=FORMAL_FR:string&amp;field=NAME_CIAWF:string&amp;field=NOTE_ADM0:string&amp;field=NOTE_BRK:string&amp;field=NAME_SORT:string&amp;field=NAME_ALT:string&amp;field=MAPCOLOR7:integer&amp;field=MAPCOLOR8:integer&amp;field=MAPCOLOR9:integer&amp;field=MAPCOLOR13:integer&amp;field=POP_EST:integer&amp;field=POP_RANK:integer&amp;field=GDP_MD_EST:double&amp;field=POP_YEAR:integer&amp;field=LASTCENSUS:integer&amp;field=GDP_YEAR:integer&amp;field=ECONOMY:string&amp;field=INCOME_GRP:string&amp;field=WIKIPEDIA:integer&amp;field=FIPS_10_:string&amp;field=ISO_A2:string&amp;field=ISO_A3:string&amp;field=ISO_A3_EH:string&amp;field=ISO_N3:string&amp;field=UN_A3:string&amp;field=WB_A2:string&amp;field=WB_A3:string&amp;field=WOE_ID:integer&amp;field=WOE_ID_EH:integer&amp;field=WOE_NOTE:string&amp;field=ADM0_A3_IS:string&amp;field=ADM0_A3_US:string&amp;field=ADM0_A3_UN:integer&amp;field=ADM0_A3_WB:integer&amp;field=CONTINENT:string&amp;field=REGION_UN:string&amp;field=SUBREGION:string&amp;field=REGION_WB:string&amp;field=NAME_LEN:integer&amp;field=LONG_LEN:integer&amp;field=ABBREV_LEN:integer&amp;field=TINY:integer&amp;field=HOMEPART:integer&amp;field=MIN_ZOOM:double&amp;field=MIN_LABEL:double&amp;field=MAX_LABEL:double&amp;field=NE_ID:integer&amp;field=WIKIDATAID:string&amp;field=NAME_AR:string&amp;field=NAME_BN:string&amp;field=NAME_DE:string&amp;field=NAME_EN:string&amp;field=NAME_ES:string&amp;field=NAME_FR:string&amp;field=NAME_EL:string&amp;field=NAME_HI:string&amp;field=NAME_HU:string&amp;field=NAME_ID:string&amp;field=NAME_IT:string&amp;field=NAME_JA:string&amp;field=NAME_KO:string&amp;field=NAME_NL:string&amp;field=NAME_PL:string&amp;field=NAME_PT:string&amp;field=NAME_RU:string&amp;field=NAME_SV:string&amp;field=NAME_TR:string&amp;field=NAME_VI:string&amp;field=NAME_ZH:string&amp;field=area:double&amp;field=perimeter:double" name="Simplified">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20181119115105683" source="Polygon?uuid=ad7f63fd-1f81-4100-9e8b-1c0c38a31f0e&amp;crs=EPSG:4326&amp;field=featurecla:string&amp;field=scalerank:integer&amp;field=LABELRANK:integer&amp;field=SOVEREIGNT:string&amp;field=SOV_A3:string&amp;field=ADM0_DIF:integer&amp;field=LEVEL:integer&amp;field=TYPE:string&amp;field=ADMIN:string&amp;field=ADM0_A3:string&amp;field=GEOU_DIF:integer&amp;field=GEOUNIT:string&amp;field=GU_A3:string&amp;field=SU_DIF:integer&amp;field=SUBUNIT:string&amp;field=SU_A3:string&amp;field=BRK_DIFF:integer&amp;field=NAME:string&amp;field=NAME_LONG:string&amp;field=BRK_A3:string&amp;field=BRK_NAME:string&amp;field=BRK_GROUP:string&amp;field=ABBREV:string&amp;field=POSTAL:string&amp;field=FORMAL_EN:string&amp;field=FORMAL_FR:string&amp;field=NAME_CIAWF:string&amp;field=NOTE_ADM0:string&amp;field=NOTE_BRK:string&amp;field=NAME_SORT:string&amp;field=NAME_ALT:string&amp;field=MAPCOLOR7:integer&amp;field=MAPCOLOR8:integer&amp;field=MAPCOLOR9:integer&amp;field=MAPCOLOR13:integer&amp;field=POP_EST:integer&amp;field=POP_RANK:integer&amp;field=GDP_MD_EST:double&amp;field=POP_YEAR:integer&amp;field=LASTCENSUS:integer&amp;field=GDP_YEAR:integer&amp;field=ECONOMY:string&amp;field=INCOME_GRP:string&amp;field=WIKIPEDIA:integer&amp;field=FIPS_10_:string&amp;field=ISO_A2:string&amp;field=ISO_A3:string&amp;field=ISO_A3_EH:string&amp;field=ISO_N3:string&amp;field=UN_A3:string&amp;field=WB_A2:string&amp;field=WB_A3:string&amp;field=WOE_ID:integer&amp;field=WOE_ID_EH:integer&amp;field=WOE_NOTE:string&amp;field=ADM0_A3_IS:string&amp;field=ADM0_A3_US:string&amp;field=ADM0_A3_UN:integer&amp;field=ADM0_A3_WB:integer&amp;field=CONTINENT:string&amp;field=REGION_UN:string&amp;field=SUBREGION:string&amp;field=REGION_WB:string&amp;field=NAME_LEN:integer&amp;field=LONG_LEN:integer&amp;field=ABBREV_LEN:integer&amp;field=TINY:integer&amp;field=HOMEPART:integer&amp;field=MIN_ZOOM:double&amp;field=MIN_LABEL:double&amp;field=MAX_LABEL:double&amp;field=NE_ID:integer&amp;field=WIKIDATAID:string&amp;field=NAME_AR:string&amp;field=NAME_BN:string&amp;field=NAME_DE:string&amp;field=NAME_EN:string&amp;field=NAME_ES:string&amp;field=NAME_FR:string&amp;field=NAME_EL:string&amp;field=NAME_HI:string&amp;field=NAME_HU:string&amp;field=NAME_ID:string&amp;field=NAME_IT:string&amp;field=NAME_JA:string&amp;field=NAME_KO:string&amp;field=NAME_NL:string&amp;field=NAME_PL:string&amp;field=NAME_PT:string&amp;field=NAME_RU:string&amp;field=NAME_SV:string&amp;field=NAME_TR:string&amp;field=NAME_VI:string&amp;field=NAME_ZH:string&amp;field=area:double&amp;field=perimeter:double" name="Dissolved">
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20181119155826724" source="Polygon?uuid=f76416b1-cc4a-48ae-b3c1-5d63c72671fa&amp;crs=EPSG:4326&amp;field=featurecla:string&amp;field=scalerank:integer&amp;field=LABELRANK:integer&amp;field=SOVEREIGNT:string&amp;field=SOV_A3:string&amp;field=ADM0_DIF:integer&amp;field=LEVEL:integer&amp;field=TYPE:string&amp;field=ADMIN:string&amp;field=ADM0_A3:string&amp;field=GEOU_DIF:integer&amp;field=GEOUNIT:string&amp;field=GU_A3:string&amp;field=SU_DIF:integer&amp;field=SUBUNIT:string&amp;field=SU_A3:string&amp;field=BRK_DIFF:integer&amp;field=NAME:string&amp;field=NAME_LONG:string&amp;field=BRK_A3:string&amp;field=BRK_NAME:string&amp;field=BRK_GROUP:string&amp;field=ABBREV:string&amp;field=POSTAL:string&amp;field=FORMAL_EN:string&amp;field=FORMAL_FR:string&amp;field=NAME_CIAWF:string&amp;field=NOTE_ADM0:string&amp;field=NOTE_BRK:string&amp;field=NAME_SORT:string&amp;field=NAME_ALT:string&amp;field=MAPCOLOR7:integer&amp;field=MAPCOLOR8:integer&amp;field=MAPCOLOR9:integer&amp;field=MAPCOLOR13:integer&amp;field=POP_EST:integer&amp;field=POP_RANK:integer&amp;field=GDP_MD_EST:double&amp;field=POP_YEAR:integer&amp;field=LASTCENSUS:integer&amp;field=GDP_YEAR:integer&amp;field=ECONOMY:string&amp;field=INCOME_GRP:string&amp;field=WIKIPEDIA:integer&amp;field=FIPS_10_:string&amp;field=ISO_A2:string&amp;field=ISO_A3:string&amp;field=ISO_A3_EH:string&amp;field=ISO_N3:string&amp;field=UN_A3:string&amp;field=WB_A2:string&amp;field=WB_A3:string&amp;field=WOE_ID:integer&amp;field=WOE_ID_EH:integer&amp;field=WOE_NOTE:string&amp;field=ADM0_A3_IS:string&amp;field=ADM0_A3_US:string&amp;field=ADM0_A3_UN:integer&amp;field=ADM0_A3_WB:integer&amp;field=CONTINENT:string&amp;field=REGION_UN:string&amp;field=SUBREGION:string&amp;field=REGION_WB:string&amp;field=NAME_LEN:integer&amp;field=LONG_LEN:integer&amp;field=ABBREV_LEN:integer&amp;field=TINY:integer&amp;field=HOMEPART:integer&amp;field=MIN_ZOOM:double&amp;field=MIN_LABEL:double&amp;field=MAX_LABEL:double&amp;field=NE_ID:integer&amp;field=WIKIDATAID:string&amp;field=NAME_AR:string&amp;field=NAME_BN:string&amp;field=NAME_DE:string&amp;field=NAME_EN:string&amp;field=NAME_ES:string&amp;field=NAME_FR:string&amp;field=NAME_EL:string&amp;field=NAME_HI:string&amp;field=NAME_HU:string&amp;field=NAME_ID:string&amp;field=NAME_IT:string&amp;field=NAME_JA:string&amp;field=NAME_KO:string&amp;field=NAME_NL:string&amp;field=NAME_PL:string&amp;field=NAME_PT:string&amp;field=NAME_RU:string&amp;field=NAME_SV:string&amp;field=NAME_TR:string&amp;field=NAME_VI:string&amp;field=NAME_ZH:string&amp;field=area:double&amp;field=perimeter:double" name="Dissolved">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Unchecked" id="memory_20181119114848426" source="memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=featurecla:string(255,0)&amp;field=scalerank:integer(-1,0)&amp;field=LABELRANK:integer(-1,0)&amp;field=SOVEREIGNT:string(255,0)&amp;field=SOV_A3:string(255,0)&amp;field=ADM0_DIF:integer(-1,0)&amp;field=LEVEL:integer(-1,0)&amp;field=TYPE:string(255,0)&amp;field=ADMIN:string(255,0)&amp;field=ADM0_A3:string(255,0)&amp;field=GEOU_DIF:integer(-1,0)&amp;field=GEOUNIT:string(255,0)&amp;field=GU_A3:string(255,0)&amp;field=SU_DIF:integer(-1,0)&amp;field=SUBUNIT:string(255,0)&amp;field=SU_A3:string(255,0)&amp;field=BRK_DIFF:integer(-1,0)&amp;field=NAME:string(255,0)&amp;field=NAME_LONG:string(255,0)&amp;field=BRK_A3:string(255,0)&amp;field=BRK_NAME:string(255,0)&amp;field=BRK_GROUP:string(255,0)&amp;field=ABBREV:string(255,0)&amp;field=POSTAL:string(255,0)&amp;field=FORMAL_EN:string(255,0)&amp;field=FORMAL_FR:string(255,0)&amp;field=NAME_CIAWF:string(255,0)&amp;field=NOTE_ADM0:string(255,0)&amp;field=NOTE_BRK:string(255,0)&amp;field=NAME_SORT:string(255,0)&amp;field=NAME_ALT:string(255,0)&amp;field=MAPCOLOR7:integer(-1,0)&amp;field=MAPCOLOR8:integer(-1,0)&amp;field=MAPCOLOR9:integer(-1,0)&amp;field=MAPCOLOR13:integer(-1,0)&amp;field=POP_EST:integer(-1,0)&amp;field=POP_RANK:integer(-1,0)&amp;field=GDP_MD_EST:double(20,5)&amp;field=POP_YEAR:integer(-1,0)&amp;field=LASTCENSUS:integer(-1,0)&amp;field=GDP_YEAR:integer(-1,0)&amp;field=ECONOMY:string(255,0)&amp;field=INCOME_GRP:string(255,0)&amp;field=WIKIPEDIA:integer(-1,0)&amp;field=FIPS_10_:string(255,0)&amp;field=ISO_A2:string(255,0)&amp;field=ISO_A3:string(255,0)&amp;field=ISO_A3_EH:string(255,0)&amp;field=ISO_N3:string(255,0)&amp;field=UN_A3:string(255,0)&amp;field=WB_A2:string(255,0)&amp;field=WB_A3:string(255,0)&amp;field=WOE_ID:integer(-1,0)&amp;field=WOE_ID_EH:integer(-1,0)&amp;field=WOE_NOTE:string(255,0)&amp;field=ADM0_A3_IS:string(255,0)&amp;field=ADM0_A3_US:string(255,0)&amp;field=ADM0_A3_UN:integer(-1,0)&amp;field=ADM0_A3_WB:integer(-1,0)&amp;field=CONTINENT:string(255,0)&amp;field=REGION_UN:string(255,0)&amp;field=SUBREGION:string(255,0)&amp;field=REGION_WB:string(255,0)&amp;field=NAME_LEN:integer(-1,0)&amp;field=LONG_LEN:integer(-1,0)&amp;field=ABBREV_LEN:integer(-1,0)&amp;field=TINY:integer(-1,0)&amp;field=HOMEPART:integer(-1,0)&amp;field=MIN_ZOOM:double(20,5)&amp;field=MIN_LABEL:double(20,5)&amp;field=MAX_LABEL:double(20,5)&amp;field=NE_ID:integer(-1,0)&amp;field=WIKIDATAID:string(255,0)&amp;field=NAME_AR:string(255,0)&amp;field=NAME_BN:string(255,0)&amp;field=NAME_DE:string(255,0)&amp;field=NAME_EN:string(255,0)&amp;field=NAME_ES:string(255,0)&amp;field=NAME_FR:string(255,0)&amp;field=NAME_EL:string(255,0)&amp;field=NAME_HI:string(255,0)&amp;field=NAME_HU:string(255,0)&amp;field=NAME_ID:string(255,0)&amp;field=NAME_IT:string(255,0)&amp;field=NAME_JA:string(255,0)&amp;field=NAME_KO:string(255,0)&amp;field=NAME_NL:string(255,0)&amp;field=NAME_PL:string(255,0)&amp;field=NAME_PT:string(255,0)&amp;field=NAME_RU:string(255,0)&amp;field=NAME_SV:string(255,0)&amp;field=NAME_TR:string(255,0)&amp;field=NAME_VI:string(255,0)&amp;field=NAME_ZH:string(255,0)&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)" name="Added geom info">
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Unchecked" id="memory_20181119155626371" source="memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=featurecla:string(255,0)&amp;field=scalerank:integer(-1,0)&amp;field=LABELRANK:integer(-1,0)&amp;field=SOVEREIGNT:string(255,0)&amp;field=SOV_A3:string(255,0)&amp;field=ADM0_DIF:integer(-1,0)&amp;field=LEVEL:integer(-1,0)&amp;field=TYPE:string(255,0)&amp;field=ADMIN:string(255,0)&amp;field=ADM0_A3:string(255,0)&amp;field=GEOU_DIF:integer(-1,0)&amp;field=GEOUNIT:string(255,0)&amp;field=GU_A3:string(255,0)&amp;field=SU_DIF:integer(-1,0)&amp;field=SUBUNIT:string(255,0)&amp;field=SU_A3:string(255,0)&amp;field=BRK_DIFF:integer(-1,0)&amp;field=NAME:string(255,0)&amp;field=NAME_LONG:string(255,0)&amp;field=BRK_A3:string(255,0)&amp;field=BRK_NAME:string(255,0)&amp;field=BRK_GROUP:string(255,0)&amp;field=ABBREV:string(255,0)&amp;field=POSTAL:string(255,0)&amp;field=FORMAL_EN:string(255,0)&amp;field=FORMAL_FR:string(255,0)&amp;field=NAME_CIAWF:string(255,0)&amp;field=NOTE_ADM0:string(255,0)&amp;field=NOTE_BRK:string(255,0)&amp;field=NAME_SORT:string(255,0)&amp;field=NAME_ALT:string(255,0)&amp;field=MAPCOLOR7:integer(-1,0)&amp;field=MAPCOLOR8:integer(-1,0)&amp;field=MAPCOLOR9:integer(-1,0)&amp;field=MAPCOLOR13:integer(-1,0)&amp;field=POP_EST:integer(-1,0)&amp;field=POP_RANK:integer(-1,0)&amp;field=GDP_MD_EST:double(20,5)&amp;field=POP_YEAR:integer(-1,0)&amp;field=LASTCENSUS:integer(-1,0)&amp;field=GDP_YEAR:integer(-1,0)&amp;field=ECONOMY:string(255,0)&amp;field=INCOME_GRP:string(255,0)&amp;field=WIKIPEDIA:integer(-1,0)&amp;field=FIPS_10_:string(255,0)&amp;field=ISO_A2:string(255,0)&amp;field=ISO_A3:string(255,0)&amp;field=ISO_A3_EH:string(255,0)&amp;field=ISO_N3:string(255,0)&amp;field=UN_A3:string(255,0)&amp;field=WB_A2:string(255,0)&amp;field=WB_A3:string(255,0)&amp;field=WOE_ID:integer(-1,0)&amp;field=WOE_ID_EH:integer(-1,0)&amp;field=WOE_NOTE:string(255,0)&amp;field=ADM0_A3_IS:string(255,0)&amp;field=ADM0_A3_US:string(255,0)&amp;field=ADM0_A3_UN:integer(-1,0)&amp;field=ADM0_A3_WB:integer(-1,0)&amp;field=CONTINENT:string(255,0)&amp;field=REGION_UN:string(255,0)&amp;field=SUBREGION:string(255,0)&amp;field=REGION_WB:string(255,0)&amp;field=NAME_LEN:integer(-1,0)&amp;field=LONG_LEN:integer(-1,0)&amp;field=ABBREV_LEN:integer(-1,0)&amp;field=TINY:integer(-1,0)&amp;field=HOMEPART:integer(-1,0)&amp;field=MIN_ZOOM:double(20,5)&amp;field=MIN_LABEL:double(20,5)&amp;field=MAX_LABEL:double(20,5)&amp;field=NE_ID:integer(-1,0)&amp;field=WIKIDATAID:string(255,0)&amp;field=NAME_AR:string(255,0)&amp;field=NAME_BN:string(255,0)&amp;field=NAME_DE:string(255,0)&amp;field=NAME_EN:string(255,0)&amp;field=NAME_ES:string(255,0)&amp;field=NAME_FR:string(255,0)&amp;field=NAME_EL:string(255,0)&amp;field=NAME_HI:string(255,0)&amp;field=NAME_HU:string(255,0)&amp;field=NAME_ID:string(255,0)&amp;field=NAME_IT:string(255,0)&amp;field=NAME_JA:string(255,0)&amp;field=NAME_KO:string(255,0)&amp;field=NAME_NL:string(255,0)&amp;field=NAME_PL:string(255,0)&amp;field=NAME_PT:string(255,0)&amp;field=NAME_RU:string(255,0)&amp;field=NAME_SV:string(255,0)&amp;field=NAME_TR:string(255,0)&amp;field=NAME_VI:string(255,0)&amp;field=NAME_ZH:string(255,0)&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)" name="Added geom info">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="ne_50m_admin_0_countries_lakes20181119104331378" source="/vsizip//home/robin/code/swirrl/ons/ONS-OpenData/wikidata-foi/resources/ne_50m_admin_0_countries_lakes.zip" name="ne_50m_admin_0_countries_lakes">
@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-335.90427561081429531</xmin>
-      <ymin>-59.22423905902606123</ymin>
-      <xmax>206.81657972630517861</xmax>
-      <ymax>202.48560951117070772</ymax>
+      <xmin>-764.91177864019664412</xmin>
+      <ymin>-372.05400346895663688</ymin>
+      <xmax>764.91177864019664412</xmax>
+      <ymax>365.65468706270661414</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -47,25 +47,25 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>ne_50m_admin_0_countries_lakes20181119104331378</item>
-      <item>memory_20181119114848426</item>
-      <item>memory_20181119115105683</item>
-      <item>memory_20181119115634063</item>
+      <item>memory_20181119155626371</item>
+      <item>memory_20181119155826724</item>
+      <item>memory_20181119160633850</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Simplified" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="memory_20181119115634063" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="memory_20181119160633850" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dissolved" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="memory_20181119115105683" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="memory_20181119155826724" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Added geom info" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="memory_20181119114848426" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="memory_20181119155626371" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ne_50m_admin_0_countries_lakes" showFeatureCount="0">
@@ -76,13 +76,7 @@
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>-180</xmin>
-        <ymin>-58.49228515625000568</ymin>
-        <xmax>180</xmax>
-        <ymax>83.599609375</ymax>
-      </extent>
-      <id>memory_20181119114848426</id>
+      <id>memory_20181119155626371</id>
       <datasource>memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=featurecla:string(255,0)&amp;field=scalerank:integer(-1,0)&amp;field=LABELRANK:integer(-1,0)&amp;field=SOVEREIGNT:string(255,0)&amp;field=SOV_A3:string(255,0)&amp;field=ADM0_DIF:integer(-1,0)&amp;field=LEVEL:integer(-1,0)&amp;field=TYPE:string(255,0)&amp;field=ADMIN:string(255,0)&amp;field=ADM0_A3:string(255,0)&amp;field=GEOU_DIF:integer(-1,0)&amp;field=GEOUNIT:string(255,0)&amp;field=GU_A3:string(255,0)&amp;field=SU_DIF:integer(-1,0)&amp;field=SUBUNIT:string(255,0)&amp;field=SU_A3:string(255,0)&amp;field=BRK_DIFF:integer(-1,0)&amp;field=NAME:string(255,0)&amp;field=NAME_LONG:string(255,0)&amp;field=BRK_A3:string(255,0)&amp;field=BRK_NAME:string(255,0)&amp;field=BRK_GROUP:string(255,0)&amp;field=ABBREV:string(255,0)&amp;field=POSTAL:string(255,0)&amp;field=FORMAL_EN:string(255,0)&amp;field=FORMAL_FR:string(255,0)&amp;field=NAME_CIAWF:string(255,0)&amp;field=NOTE_ADM0:string(255,0)&amp;field=NOTE_BRK:string(255,0)&amp;field=NAME_SORT:string(255,0)&amp;field=NAME_ALT:string(255,0)&amp;field=MAPCOLOR7:integer(-1,0)&amp;field=MAPCOLOR8:integer(-1,0)&amp;field=MAPCOLOR9:integer(-1,0)&amp;field=MAPCOLOR13:integer(-1,0)&amp;field=POP_EST:integer(-1,0)&amp;field=POP_RANK:integer(-1,0)&amp;field=GDP_MD_EST:double(20,5)&amp;field=POP_YEAR:integer(-1,0)&amp;field=LASTCENSUS:integer(-1,0)&amp;field=GDP_YEAR:integer(-1,0)&amp;field=ECONOMY:string(255,0)&amp;field=INCOME_GRP:string(255,0)&amp;field=WIKIPEDIA:integer(-1,0)&amp;field=FIPS_10_:string(255,0)&amp;field=ISO_A2:string(255,0)&amp;field=ISO_A3:string(255,0)&amp;field=ISO_A3_EH:string(255,0)&amp;field=ISO_N3:string(255,0)&amp;field=UN_A3:string(255,0)&amp;field=WB_A2:string(255,0)&amp;field=WB_A3:string(255,0)&amp;field=WOE_ID:integer(-1,0)&amp;field=WOE_ID_EH:integer(-1,0)&amp;field=WOE_NOTE:string(255,0)&amp;field=ADM0_A3_IS:string(255,0)&amp;field=ADM0_A3_US:string(255,0)&amp;field=ADM0_A3_UN:integer(-1,0)&amp;field=ADM0_A3_WB:integer(-1,0)&amp;field=CONTINENT:string(255,0)&amp;field=REGION_UN:string(255,0)&amp;field=SUBREGION:string(255,0)&amp;field=REGION_WB:string(255,0)&amp;field=NAME_LEN:integer(-1,0)&amp;field=LONG_LEN:integer(-1,0)&amp;field=ABBREV_LEN:integer(-1,0)&amp;field=TINY:integer(-1,0)&amp;field=HOMEPART:integer(-1,0)&amp;field=MIN_ZOOM:double(20,5)&amp;field=MIN_LABEL:double(20,5)&amp;field=MAX_LABEL:double(20,5)&amp;field=NE_ID:integer(-1,0)&amp;field=WIKIDATAID:string(255,0)&amp;field=NAME_AR:string(255,0)&amp;field=NAME_BN:string(255,0)&amp;field=NAME_DE:string(255,0)&amp;field=NAME_EN:string(255,0)&amp;field=NAME_ES:string(255,0)&amp;field=NAME_FR:string(255,0)&amp;field=NAME_EL:string(255,0)&amp;field=NAME_HI:string(255,0)&amp;field=NAME_HU:string(255,0)&amp;field=NAME_ID:string(255,0)&amp;field=NAME_IT:string(255,0)&amp;field=NAME_JA:string(255,0)&amp;field=NAME_KO:string(255,0)&amp;field=NAME_NL:string(255,0)&amp;field=NAME_PL:string(255,0)&amp;field=NAME_PT:string(255,0)&amp;field=NAME_RU:string(255,0)&amp;field=NAME_SV:string(255,0)&amp;field=NAME_TR:string(255,0)&amp;field=NAME_VI:string(255,0)&amp;field=NAME_ZH:string(255,0)&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)</datasource>
       <keywordList>
         <value></value>
@@ -402,7 +396,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="179,170,65,255"/>
+              <prop k="color" v="95,159,134,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -547,7 +541,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="48">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="6">
         <columns/>
       </attributetableconfig>
       <editform></editform>
@@ -669,7 +663,7 @@
         <xmax>180</xmax>
         <ymax>83.599609375</ymax>
       </extent>
-      <id>memory_20181119115105683</id>
+      <id>memory_20181119155826724</id>
       <datasource>memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=featurecla:string(255,0)&amp;field=scalerank:integer(-1,0)&amp;field=LABELRANK:integer(-1,0)&amp;field=SOVEREIGNT:string(255,0)&amp;field=SOV_A3:string(255,0)&amp;field=ADM0_DIF:integer(-1,0)&amp;field=LEVEL:integer(-1,0)&amp;field=TYPE:string(255,0)&amp;field=ADMIN:string(255,0)&amp;field=ADM0_A3:string(255,0)&amp;field=GEOU_DIF:integer(-1,0)&amp;field=GEOUNIT:string(255,0)&amp;field=GU_A3:string(255,0)&amp;field=SU_DIF:integer(-1,0)&amp;field=SUBUNIT:string(255,0)&amp;field=SU_A3:string(255,0)&amp;field=BRK_DIFF:integer(-1,0)&amp;field=NAME:string(255,0)&amp;field=NAME_LONG:string(255,0)&amp;field=BRK_A3:string(255,0)&amp;field=BRK_NAME:string(255,0)&amp;field=BRK_GROUP:string(255,0)&amp;field=ABBREV:string(255,0)&amp;field=POSTAL:string(255,0)&amp;field=FORMAL_EN:string(255,0)&amp;field=FORMAL_FR:string(255,0)&amp;field=NAME_CIAWF:string(255,0)&amp;field=NOTE_ADM0:string(255,0)&amp;field=NOTE_BRK:string(255,0)&amp;field=NAME_SORT:string(255,0)&amp;field=NAME_ALT:string(255,0)&amp;field=MAPCOLOR7:integer(-1,0)&amp;field=MAPCOLOR8:integer(-1,0)&amp;field=MAPCOLOR9:integer(-1,0)&amp;field=MAPCOLOR13:integer(-1,0)&amp;field=POP_EST:integer(-1,0)&amp;field=POP_RANK:integer(-1,0)&amp;field=GDP_MD_EST:double(20,5)&amp;field=POP_YEAR:integer(-1,0)&amp;field=LASTCENSUS:integer(-1,0)&amp;field=GDP_YEAR:integer(-1,0)&amp;field=ECONOMY:string(255,0)&amp;field=INCOME_GRP:string(255,0)&amp;field=WIKIPEDIA:integer(-1,0)&amp;field=FIPS_10_:string(255,0)&amp;field=ISO_A2:string(255,0)&amp;field=ISO_A3:string(255,0)&amp;field=ISO_A3_EH:string(255,0)&amp;field=ISO_N3:string(255,0)&amp;field=UN_A3:string(255,0)&amp;field=WB_A2:string(255,0)&amp;field=WB_A3:string(255,0)&amp;field=WOE_ID:integer(-1,0)&amp;field=WOE_ID_EH:integer(-1,0)&amp;field=WOE_NOTE:string(255,0)&amp;field=ADM0_A3_IS:string(255,0)&amp;field=ADM0_A3_US:string(255,0)&amp;field=ADM0_A3_UN:integer(-1,0)&amp;field=ADM0_A3_WB:integer(-1,0)&amp;field=CONTINENT:string(255,0)&amp;field=REGION_UN:string(255,0)&amp;field=SUBREGION:string(255,0)&amp;field=REGION_WB:string(255,0)&amp;field=NAME_LEN:integer(-1,0)&amp;field=LONG_LEN:integer(-1,0)&amp;field=ABBREV_LEN:integer(-1,0)&amp;field=TINY:integer(-1,0)&amp;field=HOMEPART:integer(-1,0)&amp;field=MIN_ZOOM:double(20,5)&amp;field=MIN_LABEL:double(20,5)&amp;field=MAX_LABEL:double(20,5)&amp;field=NE_ID:integer(-1,0)&amp;field=WIKIDATAID:string(255,0)&amp;field=NAME_AR:string(255,0)&amp;field=NAME_BN:string(255,0)&amp;field=NAME_DE:string(255,0)&amp;field=NAME_EN:string(255,0)&amp;field=NAME_ES:string(255,0)&amp;field=NAME_FR:string(255,0)&amp;field=NAME_EL:string(255,0)&amp;field=NAME_HI:string(255,0)&amp;field=NAME_HU:string(255,0)&amp;field=NAME_ID:string(255,0)&amp;field=NAME_IT:string(255,0)&amp;field=NAME_JA:string(255,0)&amp;field=NAME_KO:string(255,0)&amp;field=NAME_NL:string(255,0)&amp;field=NAME_PL:string(255,0)&amp;field=NAME_PT:string(255,0)&amp;field=NAME_RU:string(255,0)&amp;field=NAME_SV:string(255,0)&amp;field=NAME_TR:string(255,0)&amp;field=NAME_VI:string(255,0)&amp;field=NAME_ZH:string(255,0)&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)</datasource>
       <keywordList>
         <value></value>
@@ -989,7 +983,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="20,153,182,255"/>
+              <prop k="color" v="144,118,104,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1134,7 +1128,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="885972832">
         <columns/>
       </attributetableconfig>
       <editform></editform>
@@ -1250,7 +1244,13 @@
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>memory_20181119115634063</id>
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-55.8896484375</ymin>
+        <xmax>180</xmax>
+        <ymax>83.56484374999999432</ymax>
+      </extent>
+      <id>memory_20181119160633850</id>
       <datasource>memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=featurecla:string(255,0)&amp;field=scalerank:integer(-1,0)&amp;field=LABELRANK:integer(-1,0)&amp;field=SOVEREIGNT:string(255,0)&amp;field=SOV_A3:string(255,0)&amp;field=ADM0_DIF:integer(-1,0)&amp;field=LEVEL:integer(-1,0)&amp;field=TYPE:string(255,0)&amp;field=ADMIN:string(255,0)&amp;field=ADM0_A3:string(255,0)&amp;field=GEOU_DIF:integer(-1,0)&amp;field=GEOUNIT:string(255,0)&amp;field=GU_A3:string(255,0)&amp;field=SU_DIF:integer(-1,0)&amp;field=SUBUNIT:string(255,0)&amp;field=SU_A3:string(255,0)&amp;field=BRK_DIFF:integer(-1,0)&amp;field=NAME:string(255,0)&amp;field=NAME_LONG:string(255,0)&amp;field=BRK_A3:string(255,0)&amp;field=BRK_NAME:string(255,0)&amp;field=BRK_GROUP:string(255,0)&amp;field=ABBREV:string(255,0)&amp;field=POSTAL:string(255,0)&amp;field=FORMAL_EN:string(255,0)&amp;field=FORMAL_FR:string(255,0)&amp;field=NAME_CIAWF:string(255,0)&amp;field=NOTE_ADM0:string(255,0)&amp;field=NOTE_BRK:string(255,0)&amp;field=NAME_SORT:string(255,0)&amp;field=NAME_ALT:string(255,0)&amp;field=MAPCOLOR7:integer(-1,0)&amp;field=MAPCOLOR8:integer(-1,0)&amp;field=MAPCOLOR9:integer(-1,0)&amp;field=MAPCOLOR13:integer(-1,0)&amp;field=POP_EST:integer(-1,0)&amp;field=POP_RANK:integer(-1,0)&amp;field=GDP_MD_EST:double(20,5)&amp;field=POP_YEAR:integer(-1,0)&amp;field=LASTCENSUS:integer(-1,0)&amp;field=GDP_YEAR:integer(-1,0)&amp;field=ECONOMY:string(255,0)&amp;field=INCOME_GRP:string(255,0)&amp;field=WIKIPEDIA:integer(-1,0)&amp;field=FIPS_10_:string(255,0)&amp;field=ISO_A2:string(255,0)&amp;field=ISO_A3:string(255,0)&amp;field=ISO_A3_EH:string(255,0)&amp;field=ISO_N3:string(255,0)&amp;field=UN_A3:string(255,0)&amp;field=WB_A2:string(255,0)&amp;field=WB_A3:string(255,0)&amp;field=WOE_ID:integer(-1,0)&amp;field=WOE_ID_EH:integer(-1,0)&amp;field=WOE_NOTE:string(255,0)&amp;field=ADM0_A3_IS:string(255,0)&amp;field=ADM0_A3_US:string(255,0)&amp;field=ADM0_A3_UN:integer(-1,0)&amp;field=ADM0_A3_WB:integer(-1,0)&amp;field=CONTINENT:string(255,0)&amp;field=REGION_UN:string(255,0)&amp;field=SUBREGION:string(255,0)&amp;field=REGION_WB:string(255,0)&amp;field=NAME_LEN:integer(-1,0)&amp;field=LONG_LEN:integer(-1,0)&amp;field=ABBREV_LEN:integer(-1,0)&amp;field=TINY:integer(-1,0)&amp;field=HOMEPART:integer(-1,0)&amp;field=MIN_ZOOM:double(20,5)&amp;field=MIN_LABEL:double(20,5)&amp;field=MAX_LABEL:double(20,5)&amp;field=NE_ID:integer(-1,0)&amp;field=WIKIDATAID:string(255,0)&amp;field=NAME_AR:string(255,0)&amp;field=NAME_BN:string(255,0)&amp;field=NAME_DE:string(255,0)&amp;field=NAME_EN:string(255,0)&amp;field=NAME_ES:string(255,0)&amp;field=NAME_FR:string(255,0)&amp;field=NAME_EL:string(255,0)&amp;field=NAME_HI:string(255,0)&amp;field=NAME_HU:string(255,0)&amp;field=NAME_ID:string(255,0)&amp;field=NAME_IT:string(255,0)&amp;field=NAME_JA:string(255,0)&amp;field=NAME_KO:string(255,0)&amp;field=NAME_NL:string(255,0)&amp;field=NAME_PL:string(255,0)&amp;field=NAME_PT:string(255,0)&amp;field=NAME_RU:string(255,0)&amp;field=NAME_SV:string(255,0)&amp;field=NAME_TR:string(255,0)&amp;field=NAME_VI:string(255,0)&amp;field=NAME_ZH:string(255,0)&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)</datasource>
       <keywordList>
         <value></value>
@@ -1570,7 +1570,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="97,165,242,255"/>
+              <prop k="color" v="127,110,171,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -2194,7 +2194,7 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="featurecla" index="0" name=""/>
         <alias field="scalerank" index="1" name=""/>
@@ -2297,10 +2297,10 @@
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2434,10 +2434,12 @@
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>ne_50m_admin_0_countries_lakes20181119104331378</value>
-        <value>memory_20181119114848426</value>
-        <value>memory_20181119115105683</value>
+        <value>memory_20181119155626371</value>
+        <value>memory_20181119155826724</value>
+        <value>memory_20181119160633850</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -2448,8 +2450,10 @@
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -2457,6 +2461,7 @@
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
